@@ -1,19 +1,19 @@
 #1 Print where I am:
-pwd - print working directory
+'pwd' - print working directory
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git (main)
 $ pwd
 /d/Testing Course/Git
 -------------------------------------------------------
 #2 Create New Directory
-mkdir - make new directory
+'mkdir' - make new directory
 mkdir dir1 - create directory dir1
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git (main)
 $ mkdir dir1
 ------------------------------------------------------------
 #3 Change directory  on current level/ go to created directory
-cd dir1  -change directory to dir1
+'cd dir1'  -change directory to dir1
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git (main)
 $ cd dir1
 
@@ -31,6 +31,51 @@ dir1/  dir2/  dir3/
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $
+*by 'ls' command you can list files of the directory
 ------------------------------------------------------------
-#5 
+#5 Create files: 3 .txt and 2 .json files
+here you have several options:
+   a) 'cat' command ( when finish to add information in file click 'CTrl+D' to save changes):
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$ cat > file1.txt
+first line
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$ ls
+dir1/  dir2/  dir3/  file1.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$ 
+
+   b) 'echo' command
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$ echo 'smth' > file2.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$ ls
+dir1/  dir2/  dir3/  file1.txt  file2.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$ cat file2.txt
+smth
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$
+* by executing 'cat file' command you can read file
+
+or create file with one empty string:
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$ echo >file3.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$ ls
+dir1/  dir2/  dir3/  file1.txt  file2.txt  file3.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$
+
+
 

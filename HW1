@@ -21,7 +21,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $
 -------------------------------------------------------
 #4 Create 3 directories at a time
-
+Creating directories in dir1:
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $ mkdir dir1 dir2 dir3
 
@@ -100,7 +100,115 @@ dir1/  dir2/  dir3/  file1.txt  file2.txt  file3.txt  file4.json
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $
     d) vi command
-    
+Here I used 'vi' editor:
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1/dir1 (main)
+$ vi file5.1.json
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1/dir1 (main)
+$ cat file5.1.json
+I like to learn Linux.
+It is easy and a lot of fun (at least to me)
+It is third line of my file.
+And one more. I will delete it later.
+I will continue later.
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1/dir1 (main)
+$ ls
+file5.1.json
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1/dir1 (main)
+$
+
 ---------------------------------------------------------------------
+
+#7 Again creating 3 directories:
+again using 'mkdir' command I created 3 new directories but in dir2 now:
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1/dir2 (main)
+$ mkdir newdir1 newdir2 newdir3
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1/dir2 (main)
+$ ls
+newdir1/  newdir2/  newdir3/
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1/dir2 (main)
+$
+-------------------------------------------------------------------
+#8 Print the content of directory:
+ls -  command  which is allowed us to see the content of the current directory
+ls -a command show all files including hidden files
+ls -l - command from the list which allowed us to see the content of the current directory in a long format
+ .bash_history - example of a hidden file  - there all files started name with a dot.
+ls -a -l -  or ls -al or ls -la  - all files with parameters
+ls -t - sort by modification time (date)
+ls -tr - sort by modification time (date) reverse order
+ls -ltr  - sort by modification time (date) reverse order in long format
+I will show my favourite one - the last:
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$ ls -ltr
+total 3
+drwxr-xr-x 1 Admin 197121  0 Apr 19 15:02 dir3/
+-rw-r--r-- 1 Admin 197121 11 Apr 19 15:34 file1.txt
+-rw-r--r-- 1 Admin 197121  5 Apr 19 15:39 file2.txt
+-rw-r--r-- 1 Admin 197121  1 Apr 19 15:45 file3.txt
+-rw-r--r-- 1 Admin 197121  0 Apr 19 15:53 file4.json
+drwxr-xr-x 1 Admin 197121  0 Apr 19 17:41 dir1/
+drwxr-xr-x 1 Admin 197121  0 Apr 19 17:46 dir2/
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$
+-------------------------------------------------------------------
+#9 Open any .txt file
+using 'cat' command:
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$ cat file1.txt
+first line
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$
+
+------------------------------------------------------------------
+#10 Adding smth in the existing file:
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$ cat >> file1.txt
+second line
+third line
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$
+* to save changes use 'CTRL+D'
+--------------------------------------------------------------
+#11 Save changes in this file:
+CTRL+D
+or using 'vi' editor:
+vi file.txt 
+change from command to input mode by typing 'i' 
+insert smth
+push the button 'Escape' to change mode to command
+type ":w" to write file and then ":q" to exit or you can do it at one time: ':wq"
+------------------------------------------------------------------------------------
+
+#12 Go to level up directory:
+'cd ..' - command (don't forget space)
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$ pwd
+/d/Testing Course/Git/dir1
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$ cd ..
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git (main)
+$ pwd
+/d/Testing Course/Git
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git (main)
+$
+---------------------------------------------------------------------------------
+
+
+
 
 

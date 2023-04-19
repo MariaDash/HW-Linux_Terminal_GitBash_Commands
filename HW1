@@ -182,12 +182,20 @@ $
 --------------------------------------------------------------
 #11 Save changes in this file:
 CTRL+D
-or using 'vi' editor:
+or using vi editor:
 vi file.txt 
 change from command to input mode by typing 'i' 
 insert smth
 push the button 'Escape' to change mode to command
 type ":w" to write file and then ":q" to exit or you can do it at one time: ':wq"
+
+or using vim editor:
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$ vim file1.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$
 ------------------------------------------------------------------------------------
 
 #12 Go to level up directory:

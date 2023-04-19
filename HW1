@@ -65,7 +65,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $
 * by executing 'cat file' command you can read file
 
-or create file with one empty string:
+      or create file with one empty string:
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $ echo >file3.txt
@@ -76,6 +76,19 @@ dir1/  dir2/  dir3/  file1.txt  file2.txt  file3.txt
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $
+   c) 'touch' command 
 
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$ touch file4.json
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$ ls
+dir1/  dir2/  dir3/  file1.txt  file2.txt  file3.txt  file4.json
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$
+    d) vi command
+    
+---------------------------------------------------------------------
 
 

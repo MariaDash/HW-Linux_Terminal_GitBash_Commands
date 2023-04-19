@@ -1,7 +1,14 @@
-Print where I am:
+#1 Print where I am:
 pwd - print working directory
 
-Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Ksendzov/Git (main)
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git (main)
 $ pwd
-/d/Testing Ksendzov/Git
+/d/Testing Course/Git
 
+#2 Create New Directory
+mkdir dir1 - create directory dir1
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git (main)
+$ mkdir dir1
+
+#3

@@ -6,9 +6,30 @@ $ pwd
 /d/Testing Course/Git
 
 #2 Create New Directory
+mkdir - make new directory
 mkdir dir1 - create directory dir1
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git (main)
 $ mkdir dir1
 
-#3
+#3 Change directory  on current level/ go to created directory
+cd dir1  -change directory to dir1
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git (main)
+$ cd dir1
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$
+
+#4 Create 3 directories at a time
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$ mkdir dir1 dir2 dir3
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$ ls
+dir1/  dir2/  dir3/
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$
+
+

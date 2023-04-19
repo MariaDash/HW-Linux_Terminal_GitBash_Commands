@@ -132,6 +132,30 @@ newdir1/  newdir2/  newdir3/
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1/dir2 (main)
 $
+
+Advanced: when using cp command we can copy directories ( say create new) in different location:
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1 (main)
+$ cd dir2
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1/dir2 (main)
+$ ls
+newdir1/  newdir2/  newdir3/
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1/dir2 (main)
+$ cp -r newdir1 newdir2 newdir3 /d/Testing_Course/Git/dir1
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1/dir2 (main)
+$ cd ..
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1 (main)
+$ ls
+dir1/  dir3/      file2.txt  file4.json    newdir1/  newdir3/
+dir2/  file1.txt  file3.txt  file5.1.json  newdir2/
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1 (main)
+$
+
 -------------------------------------------------------------------
 #8 Print the content of directory:
 ls -  command  which is allowed us to see the content of the current directory
@@ -215,6 +239,110 @@ $ pwd
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git (main)
 $
 ---------------------------------------------------------------------------------
+#13 Move any two files to any other directory
+'mv' command
+move from parent to child directory:
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$ pwd
+/d/Testing Course/Git/dir1
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$ ls
+dir1/  dir2/  dir3/  file1.txt  file2.txt  file3.txt  file4.json
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$ mv file1.txt file2.txt dir3
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$ cd dir3
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1/dir3 (main)
+$ ls
+file1.txt  file2.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1/dir3 (main)
+$
+
+or if we need to move from child to parent directory we need to write the path:
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git (main)
+$ pwd
+/d/Testing_Course/Git
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git (main)
+$ cd dir1
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1 (main)
+$ ls
+dir1/  dir2/  dir3/  file3.txt  file4.json
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1 (main)
+$ cd dir3
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1/dir3 (main)
+$ ls
+file1.txt  file2.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1/dir3 (main)
+$ mv file1.txt file2.txt /d/Testing_Course/Git
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1/dir3 (main)
+$
+
+-----------------------------------------------------------------
+#14 Copy any two files to any other directory
+'cp' command
+copy from parent to child directory:
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1 (main)
+$ cp file1.txt file2.txt dir1
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1 (main)
+$ cd dir1
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1/dir1 (main)
+$ ls
+file1.txt  file2.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1/dir1 (main)
+$ cd ..
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1 (main)
+$ ls
+dir1/  dir2/  dir3/  file1.txt  file2.txt  file3.txt  file4.json  file5.1.json
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1 (main)
+$
+
+or copy from child to parent directory:
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1 (main)
+$ cp file1.txt file2.txt /d/Testing_Course/Git/
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1 (main)
+$ cd ..
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git (main)
+$ ls
+README.md  dir1/  file1.txt  file2.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git (main)
+$
+---------------------------------------------------------------------------
+#15 Find a file by name
+'find -name' command
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1 (main)
+$ find .  -name file1.txt
+./file1.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1 (main)
+$
+-------------------------------------------------------------------------
+#16 
+
+
 
 
 

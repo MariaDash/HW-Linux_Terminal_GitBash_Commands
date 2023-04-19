@@ -33,7 +33,19 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $
 *by 'ls' command you can list files of the directory
 ------------------------------------------------------------
-#5 Create files: 3 .txt and 2 .json files
+#5 Change directory to any  other:
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$ cd dir1
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1/dir1 (main)
+$ pwd
+/d/Testing Course/Git/dir1/dir1
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1/dir1 (main)
+$
+--------------------------------------------------------------------
+
+#6 Create files: 3 .txt and 2 .json files
 here you have several options:
    a) 'cat' command ( when finish to add information in file click 'CTrl+D' to save changes):
 

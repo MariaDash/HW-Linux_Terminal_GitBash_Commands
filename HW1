@@ -453,7 +453,7 @@ The server shows 404 Not Found response status code. Client error , page is not 
 #22 Write a bash script which does the steps above (# 3-8, # 13)
 You can look at the script code here:
 https://github.com/MariaDash/HW-Linux_Terminal_GitBash_Commands/blob/ce0552d4482c59ef9a39120c227c43bebc0d9ecf/main_dir/script.sh
-Note: to run this script from the directory where the file is located, just type ./script.sh.
+Note: to run this script from the directory where the file is located, just type ./script.sh or bash script.sh.
 
 
 

@@ -398,10 +398,10 @@ $
 less filename -  open a big file
 more filename - open a big file with enable progress( in %) of reading option (in cmd, not in GitBash):
 
-Imagine that we don`t have any large file, so we can download it from the web or create by ourselves.
-
+Imagine that we don`t have any large file, so we can download it from the web or create by ourselves. 
 Step 1.
-Option 1: download a sample large file to the current directory manually in GUI 
+Option 1: download a sample large file to the current directory manually in GUI (download here:https://www.learningcontainer.com/sample-text-file/)
+
 Option 2 (advanced): create a file in bash by using for loop (e.g. we want to create a file with a name 'happy.txt' and add a sample line 1000 times, each paragraph from a new line)
 The echo command prints text to the file, and > redirect/saves file in file location
 

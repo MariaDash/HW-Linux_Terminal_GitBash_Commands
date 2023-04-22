@@ -264,4 +264,87 @@ $
 ------------------------------------------------------------------------------------------
 #19 Find path to tf_4.txt
 
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ find -name tf_4.txt
+./inner_dir_1/tf_4.txt
 
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+---------------------------------------------------------------------------------------
+#20 Clear the contents of the file tf_4.txt without deleting it
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ cat ./inner_dir_1/tf_4.txt
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ echo -n > ./inner_dir_1/tf_4.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ cat ./inner_dir_1/tf_4.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+--------------------------------------------------------------------------------
+#21 Find path to files with 'tf' in the name. Case sensitive.
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ find -name '*tf*'
+./inner_dir_1/tf_3.txt
+./inner_dir_1/tf_4.txt
+./tf_1.txt
+./tf_2.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+----------------------------------------------------------------------------------
+#22 Find path to files with 'tf' in the name. Case insensitive.
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ find -iname '*tf*'
+./inner_dir_1/tf_3.txt
+./inner_dir_1/tf_4.txt
+./inner_dir_1/tF_5.txt
+./tf_1.txt
+./tf_2.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+----------------------------------------------------------------------------------
+#23 Find strings in files where 'sec' is located in the current directory. Case sensitive.
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep 'sec' *
+grep: inner_dir_1: Is a directory
+tf_2.txt:the second 2
+tf_2.txt:the sec 3
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+----------------------------------------------------------------------------------
+№24 Find strings in files where 'sec' is located in the current directory. Case insensitive.
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep -i 'sec' *
+grep: inner_dir_1: Is a directory
+tf_2.txt:the second 2
+tf_2.txt:the sec 3
+tf_2.txt:the seConD 2
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+-----------------------------------------------------------------------------------

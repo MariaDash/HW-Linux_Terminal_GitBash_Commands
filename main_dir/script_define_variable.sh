@@ -9,4 +9,3 @@ rm -rf $FOLDER                                          && echo "rm -rf ${FOLDER
 && mkdir newd1 newd2 newd3                              && echo "mkdir newd1 newd2 newd3" \
 && ls -la                                               && echo "ls -la" \
 && mv -t newd1 note1.txt j1.json                        && echo "mv -t newd1 note1.txt j1.json"
-

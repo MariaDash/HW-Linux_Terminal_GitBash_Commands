@@ -452,9 +452,9 @@ The server shows 404 Not Found response status code. Client error , page is not 
 ------------------------------------------------------------------------------------------------------------------------------------
 #22 Write a bash script which does the steps above (# 3-8, # 13)
 You can look at the script code here:
-https://github.com/MariaDash/HW-Linux_Terminal_GitBash_Commands/blob/eb538f065a616f35227fc252bc023e98593f9b1a/main_dir/script_simple.sh
+https://github.com/MariaDash/HW-Linux_Terminal_GitBash_Commands/blob/59d7bc78f4d231fbe08122c20f719f8cbd861705/main_dir/script_simple.sh
 or
-https://github.com/MariaDash/HW-Linux_Terminal_GitBash_Commands/blob/eb538f065a616f35227fc252bc023e98593f9b1a/main_dir/script_define%20variable.sh
+https://github.com/MariaDash/HW-Linux_Terminal_GitBash_Commands/blob/59d7bc78f4d231fbe08122c20f719f8cbd861705/main_dir/script_define_variable.sh
 Note: to run this script from the directory where the file is located, just type ./script.sh or bash script.sh.
 
 

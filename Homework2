@@ -171,4 +171,97 @@ the seConD 2
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
 $
 ------------------------------------------------------------------------------------------------
-#14 
+#14 Create text file tf_4.txt containing 15 strings
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
+$ cat > tf_4.txt
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
+$
+or 
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
+$ seq 15 | cat > tf_4.txt
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ 
+-------------------------------------------------------------------------------------------
+#15 Create text file tF_5.txt containing 13 strings
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
+$ cat > tF_5.txt
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
+$
+or
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
+$ seq 13 | cat > tF_5.txt
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ 
+
+-----------------------------------------------------------------------------------------------
+#16 List all file in the directory
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
+$ ls -la
+total 3
+drwxr-xr-x 1 Admin 197121   0 Apr 22 14:08 ./
+drwxr-xr-x 1 Admin 197121   0 Apr 22 13:35 ../
+-rw-r--r-- 1 Admin 197121  30 Apr 22 14:09 tF_5.txt
+-rw-r--r-- 1 Admin 197121 111 Apr 22 14:00 tf_3.txt
+-rw-r--r-- 1 Admin 197121  36 Apr 22 14:06 tf_4.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
+$
+----------------------------------------------------------------------------------------
+#17 Change directory from current inner_dir_1
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
+$ cd ..
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+------------------------------------------------------------------------------------------------
+#18 Show the contetns of tf_3.txt file
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ cat /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1/tf_3.txt
+I am happy amd I know it
+I am funny and I know it
+I am goofy and I know it
+the second 2
+the sec 2
+the SeCoNd 2
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+------------------------------------------------------------------------------------------
+#19 Find path to tf_4.txt
+
+

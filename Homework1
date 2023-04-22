@@ -1,3 +1,5 @@
+All commands are executed on Git Bash
+
 #1 Print where I am:
 'pwd' - print working directory
 

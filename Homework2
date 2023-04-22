@@ -1,0 +1,124 @@
+All command are executed on Git Bash
+
+#1 Create dir_1 directory
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir (main)
+$ mkdir dir_1
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir (main)
+$ ls
+dir_1/
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir (main)
+$
+-------------------------------------------------------------------------------
+#2 Change directory to dir_1
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir (main)
+$ cd dir_1
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+------------------------------------------------------------------------------
+#3 Create directory inner_dir_1
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ mkdir inner_dir_1
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ ls
+inner_dir_1/
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+--------------------------------------------------------------------------------
+#4 Print where I am
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ pwd
+/d/Testing_Course/Git/main_dir/sub_dir/dir_1
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+--------------------------------------------------------------------------------
+#5 Create an empty text file tf_1.txt in dir_1 directory
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ touch tf_1.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ ls
+inner_dir_1/  tf_1.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ cat tf_1.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+-----------------------------------------------------------------------------------
+#6 Create tf_2.txt file in dir_1 with following strings:
+- the first 1
+- the second 2
+- the third 3
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ cat > tf_2.txt
+the first 1
+the second 2
+the third 3
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ cat tf_2.txt
+the first 1
+the second 2
+the third 3
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+----------------------------------------------------------------------------------
+#7 Change directory to inner_dir_1
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ cd inner_dir_1
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
+$
+---------------------------------------------------------------------------------
+#8 Create tf_3.txt file with any strings
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
+$ cat > tf_3.txt
+I am happy amd I know it
+I am funny and I know it
+I am goofy and I know it
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
+$
+------------------------------------------------------------------------------------------
+#9 Add the string "the second 2" to the file tf_3.txt using "cat" command
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
+$ cat >>tf_3.txt
+the second 2
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
+$ cat tf_3.txt
+I am happy amd I know it
+I am funny and I know it
+I am goofy and I know it
+the second 2
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
+$
+--------------------------------------------------------------------------------------------
+#10 Add the string "the sec 2" to the file tf_3.txt using "cat" command
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
+$ cat >> tf_3.txt
+the sec 2
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
+$
+-------------------------------------------------------------------------------------------
+
+

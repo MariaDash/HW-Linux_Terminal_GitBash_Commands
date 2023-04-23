@@ -447,21 +447,57 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ----------------------------------------------------------------------------------
 №32 Find files and the path to files  not containing strings with 'second'. Case sensitive.
-1)Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$ grep -rv 'second' ./*
-grep: ./inner_dir_1: Is a directory
-./tf_2.txt:the second 2
-
+absolute path:
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$
-3) absolute path:
-Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$ grep -l second *.* | xargs realpath
+$ grep -rvl second *| xargs realpath
+/d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1/tf_3.txt
+/d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1/tF_5.txt
 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/tf_2.txt
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$ 
-*.* - in current directory
+$
+------------------------------------------------------------------------------------
+#33 Print last 4 strings of any text file
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ tail -4 tf_2.txt
+the second 2
+the third 3
+the sec 3
+the seConD 2
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+----------------------------------------------------------------------------------
+#34 Print first 4 strings of any text file
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ head -4 tf_2.txt
+the first 1
+the second 2
+the third 3
+the sec 3
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+-----------------------------------------------------------------------------------
+#35 One string command: create a directory & not empty file
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ mkdir newdir |echo "1 2 3 4 5 " > newfile1.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ ls
+inner_dir_1/  newdir/  newfile1.txt  tf_1.txt  tf_2.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ cat newfile1.txt
+1 2 3 4 5
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+------------------------------------------------------------------------------
+#36
 #38
 grep 'sec' * | cat > allfile.txt
 grep: inner_dir_1: Is a directory

@@ -391,4 +391,22 @@ $
 -----------------------------------------------------------------------------------------------------------------------
 #29 Find strings in files where  'second' is standalone pattern and is located in all   directories level below . Case sensitive.
 
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep -r 'second' *
+inner_dir_1/tf_3.txt:the second 2
+tf_2.txt:the second 2
 
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+---------------------------------------------------------------------------------------
+#38
+grep 'sec' * | cat > allfile.txt
+grep: inner_dir_1: Is a directory
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ cat allfile.txt
+tf_2.txt:the second 2
+tf_2.txt:the sec 3
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$

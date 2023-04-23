@@ -1,3 +1,5 @@
+#!/bin/bash
+
 rm -rf dir1                                             && echo "rm -rf dir1" \
 && mkdir dir1                                           && echo "mkdir dir1" \
 && cd dir1                                              && echo "cd dir1" \

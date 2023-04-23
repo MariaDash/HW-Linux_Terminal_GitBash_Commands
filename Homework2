@@ -348,3 +348,23 @@ tf_2.txt:the seConD 2
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 -----------------------------------------------------------------------------------
+#25  Find strings in files where  'sec' is standalone pattern and is located in the current directory. Case sensitive.
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep -w 'sec' *
+grep: inner_dir_1: Is a directory
+tf_2.txt:the sec 3
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+---------------------------------------------------------------------------------------------
+#26 Find strings in files where  'sec' is standalone pattern and is located in the current directory. Case insensitive.
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep -iw 'sec' *
+grep: inner_dir_1: Is a directory
+tf_2.txt:the sec 3
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+---------------------------------------------------------------------------------

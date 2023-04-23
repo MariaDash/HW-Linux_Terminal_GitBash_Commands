@@ -371,7 +371,7 @@ $
 #27 Find strings in files where  'second' is standalone pattern and is located in the current directory. Case sensitive.
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$ grep -w 'second' *
+$ grep 'second' *
 grep: inner_dir_1: Is a directory
 tf_2.txt:the second 2
 
@@ -381,7 +381,7 @@ $
 #28 Find strings in files where  'second' is standalone pattern and is located in the current directory. Case insensitive.
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$ grep -wi 'second' *
+$ grep -i 'second' *
 grep: inner_dir_1: Is a directory
 tf_2.txt:the second 2
 tf_2.txt:the seConD 2
@@ -399,6 +399,25 @@ tf_2.txt:the second 2
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ---------------------------------------------------------------------------------------
+#30 Find files and the path to files  containing strings with 'second' in the current directory. Case sensitive.
+1)Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep  'second' ./*
+grep: ./inner_dir_1: Is a directory
+./tf_2.txt:the second 2
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+3) absolute path:
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep -rl second *.* | xargs realpath
+/d/Testing_Course/Git/main_dir/sub_dir/dir_1/tf_2.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ 
+*.* - in current directory
+-------------------------------------------------------------------------------------------
+#31 
+
 #38
 grep 'sec' * | cat > allfile.txt
 grep: inner_dir_1: Is a directory

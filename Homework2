@@ -407,17 +407,61 @@ grep: ./inner_dir_1: Is a directory
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
-3) absolute path:
+2) absolute path:
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$ grep -rl second *.* | xargs realpath
+$ grep -l second *.* | xargs realpath
 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/tf_2.txt
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ 
 *.* - in current directory
 -------------------------------------------------------------------------------------------
-#31 
+#31 Find strings in files where  'second' is standalone pattern and is located in the current directory. Case sensitive.
 
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep  -rv 'second' *
+inner_dir_1/tf_3.txt:I am happy amd I know it
+inner_dir_1/tf_3.txt:I am funny and I know it
+inner_dir_1/tf_3.txt:I am goofy and I know it
+inner_dir_1/tf_3.txt:the sec 2
+inner_dir_1/tf_3.txt:the SeCoNd 2
+inner_dir_1/tF_5.txt:1
+inner_dir_1/tF_5.txt:2
+inner_dir_1/tF_5.txt:3
+inner_dir_1/tF_5.txt:4
+inner_dir_1/tF_5.txt:5
+inner_dir_1/tF_5.txt:6
+inner_dir_1/tF_5.txt:7
+inner_dir_1/tF_5.txt:8
+inner_dir_1/tF_5.txt:9
+inner_dir_1/tF_5.txt:10
+inner_dir_1/tF_5.txt:11
+inner_dir_1/tF_5.txt:12
+inner_dir_1/tF_5.txt:13
+tf_2.txt:the first 1
+tf_2.txt:the third 3
+tf_2.txt:the sec 3
+tf_2.txt:the seConD 2
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+----------------------------------------------------------------------------------
+№32 Find files and the path to files  not containing strings with 'second'. Case sensitive.
+1)Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep -rv 'second' ./*
+grep: ./inner_dir_1: Is a directory
+./tf_2.txt:the second 2
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+3) absolute path:
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep -l second *.* | xargs realpath
+/d/Testing_Course/Git/main_dir/sub_dir/dir_1/tf_2.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ 
+*.* - in current directory
 #38
 grep 'sec' * | cat > allfile.txt
 grep: inner_dir_1: Is a directory

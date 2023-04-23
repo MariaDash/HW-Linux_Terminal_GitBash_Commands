@@ -1,3 +1,4 @@
+#!/bin/bash
 FOLDER="dir1"
 
 rm -rf $FOLDER                                          && echo "rm -rf ${FOLDER}" \

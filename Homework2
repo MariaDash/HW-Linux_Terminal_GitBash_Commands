@@ -368,3 +368,27 @@ tf_2.txt:the sec 3
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ---------------------------------------------------------------------------------
+#27 Find strings in files where  'second' is standalone pattern and is located in the current directory. Case sensitive.
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep -w 'second' *
+grep: inner_dir_1: Is a directory
+tf_2.txt:the second 2
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+---------------------------------------------------------------------------------------------------------------
+#28 Find strings in files where  'second' is standalone pattern and is located in the current directory. Case insensitive.
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep -wi 'second' *
+grep: inner_dir_1: Is a directory
+tf_2.txt:the second 2
+tf_2.txt:the seConD 2
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+-----------------------------------------------------------------------------------------------------------------------
+#29 Find strings in files where  'second' is standalone pattern and is located in all   directories level below . Case sensitive.
+
+

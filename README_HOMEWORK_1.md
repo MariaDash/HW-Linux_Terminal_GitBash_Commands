@@ -21,14 +21,14 @@
 + [14. Copy any two files to any other directory cp command copy from parent to child directory]()
 + [15. Find a file by name]()
 + [16. Show file contents in real time and filter by pattern]()  
-             [— Команда tail](https://github.com/ipohaa/terminal/tree/main/homework1#команда-tail)  
-             [— Команда grep](https://github.com/ipohaa/terminal/tree/main/homework1#команда-grep)
-+ [17. Вывести несколько первых строк из текстового файла](https://github.com/ipohaa/terminal/tree/main/homework1#17-вывести-несколько-первых-строк-из-текстового-файла)
-+ [18. Вывести несколько последних строк из текстового файла](https://github.com/ipohaa/terminal/tree/main/homework1#18-вывести-несколько-последних-строк-из-текстового-файла)
-+ [19. Просмотреть содержимое длинного файла](https://github.com/ipohaa/terminal/tree/main/homework1#19-просмотреть-содержимое-длинного-файла-команда-less-изучите-как-она-работает)
-+ [20. Вывести дату и время](https://github.com/ipohaa/terminal/tree/main/homework1#20-вывести-дату-и-время)
-+ [21. * Отправить HTTP запрос на сервер.](https://github.com/ipohaa/terminal/tree/main/homework1#21-отправить-http-запрос-на-сервер)
-+ [22. * Написать скрипт который выполнит пункты (3-8, 13) автоматически](https://github.com/ipohaa/terminal/tree/main/homework1#22-написать-скрипт-который-выполнит-автоматически-пункты-3-4-5-6-7-8-13)
+             [— tail command]()  
+             [— grep command]()
++ [17. Show some first lines of the file]()
++ [18. Show some last lines of the file]()
++ [19. Show content of long file]()
++ [20. Show current date&time]()
++ [21. * Send an http request to the server]()
++ [22. * Write a bash script which does the steps above (# 3-8, # 13)]()
 
 ## 1. Print where I am:
 `pwd` - print working directory
@@ -489,8 +489,10 @@ $
 `less filename` -  open a big file
 `more filename` - open a big file with enable progress( in %) of reading option (in cmd, not in GitBash):
 
-Imagine that we don`t have any large file, so we can download it from the web or create by ourselves. 
-**Step 1.**
+Imagine that we don`t have any large file, so we can download it from the web or create by ourselves.
+
+
+**Step1.** 
 Option 1: download a sample large file to the current directory manually in GUI (download here:https://www.learningcontainer.com/sample-text-file/)
 
 Option 2 (advanced): create a file in bash by using for loop (e.g. we want to create a file with a name 'happy.txt' and add a sample line 1000 times, each paragraph from a new line)
@@ -526,7 +528,7 @@ $
 ```
 
 ### Anvanced :
-### 1. Send an http request to the server http://162.55.220.72:5005/terminal-hw-request:
+### 21. Send an http request to the server http://162.55.220.72:5005/terminal-hw-request:
 Let's try to send a `GET HTTP` request to this server. With a curl command, we can send any response. Here, we additionally specify the type of HTTP request with `-X GET` ( but if we don't specify request it will be `GET` request by default):
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1 (main)
@@ -544,7 +546,7 @@ $
 ```
 The server shows `404 Not Found` response status code. Client error , page is not founded.
 
-## 2. Write a bash script which does the steps above (# 3-8, # 13):
+## 22. Write a bash script which does the steps above (# 3-8, # 13):
 You can look at the simple script code [here](https://github.com/MariaDash/HW-Linux_Terminal_GitBash_Commands/blob/59d7bc78f4d231fbe08122c20f719f8cbd861705/main_dir/script_simple.sh):
 
 or define_variable script code [here](https://github.com/MariaDash/HW-Linux_Terminal_GitBash_Commands/blob/59d7bc78f4d231fbe08122c20f719f8cbd861705/main_dir/script_define_variable.sh):

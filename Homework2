@@ -594,9 +594,26 @@ $ cat newfile1.txt
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ------------------------------------------------------------------------------
-#36
+#36 One string command. Move text files containing word "sec" in any other directory
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep -rlw "sec" | xargs mv -t dir_2
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ls dir_2
+inner_dir_1  tf_2.txt  tf_3.txt
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
 ------------------------------------------------------------------------------
-#37
+#37 One string command. Copy text files containing word "sec" in any other directory
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep -rlw "sec" | xargs cp -t dir_3
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ ls dir_3
+inner_dir_1  tf_2.txt  tf_3.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
 ------------------------------------------------------------------------------
 #38 One string command. Find all strings containing "sec" in all files . Print them all to a new file
 grep 'sec' * | cat > allfile.txt
@@ -610,7 +627,7 @@ tf_2.txt:the sec 3
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ----------------------------------------------------------------------------------
-#39 One string command: Delete all text file with strings containig "sec"
+#39 One string command: Delete all text file with strings containig word "sec"
 1) if combination "sec'
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep -rl sec | xargs rm
@@ -619,7 +636,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 2) if standalone word "sec"
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$ grep -rl room | xargs rm
+$ grep -rlw sec | xargs rm
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $

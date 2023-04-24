@@ -5,10 +5,10 @@
 + [Create 3 directories at a time](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/README_HOMEWORK_1.md#4-create-3-directories-at-a-time)  
 + [5. Change directory to any other](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/README_HOMEWORK_1.md#5-change-directory-to-any--other)  
 + [6. Create files: 3 .txt and 2 .json files](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/README_HOMEWORK_1.md#6-create-files-3-txt-and-2-json-files) 
-           +[`cat` command]()
-           +[`echo` command]()
-           +[`touch` command]()
-           +[`vi` command]()
+           +[-`cat` command]()
+           +[-`echo` command]()
+           +[-`touch` command]()
+           +[-`vi` command]()
 + [7. Again creating 3 directories]()  
 + [Print the contents of directory]()  
 + [9. Открыть .txt файл, написать туда любой текст, сохранить и выйти](https://github.com/ipohaa/terminal/tree/main/homework1#9-11-открыть-txt-файл-написать-туда-любой-текст-сохранить-и-выйти)  
@@ -102,7 +102,7 @@ dir1/  dir2/  dir3/  file1.txt
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $ 
 ```
-   ### * `echo` command
+   ###  `echo` command
    
    Not empty file:
 ```
@@ -135,7 +135,7 @@ dir1/  dir2/  dir3/  file1.txt  file2.txt  file3.txt
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $
 ```
-   ### * `touch` command 
+   ###  `touch` command 
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
@@ -149,7 +149,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $
 ```
 
-   ### * `vi` command
+   ###  `vi` command
 
 Here I used `vi` editor (simular syntaxis in `vim ` editor):
 ```

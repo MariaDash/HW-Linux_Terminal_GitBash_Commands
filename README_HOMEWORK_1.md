@@ -1,13 +1,19 @@
 # HW#1 Basic Linux commands created  with GitBash
-+ [1. Print where I am](https://github.com/ipohaa/terminal/tree/main/homework1#1-посмотреть-где-я)  
-+ [2. Create New Directory](https://github.com/ipohaa/terminal/tree/main/homework1#2-создать-папку)  
-+ [3. Change directory  on current level/ go to created directory](https://github.com/ipohaa/terminal/tree/main/homework1#3-зайти-в-папку)  
-+ [Create 3 directories at a time](https://github.com/ipohaa/terminal/tree/main/homework1#4-создать-3-папки)  
-+ [5. Change directory to any  other](https://github.com/ipohaa/terminal/tree/main/homework1#5-зайти-в-любую-папку)  
-+ [6. Create files: 3 .txt and 2 .json files](https://github.com/ipohaa/terminal/tree/main/homework1#6-создать-5-файлов-3-txt-2-json)  
-+ [7. Again creating 3 directories](https://github.com/ipohaa/terminal/tree/main/homework1#7-создать-3-папки)  
-+ [Print the contents of directory](https://github.com/ipohaa/terminal/tree/main/homework1#8-вывести-список-содержимого-папки)  
-+ [9-11. Открыть .txt файл, написать туда любой текст, сохранить и выйти](https://github.com/ipohaa/terminal/tree/main/homework1#9-11-открыть-txt-файл-написать-туда-любой-текст-сохранить-и-выйти)  
++ [1. Print where I am](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/README_HOMEWORK_1.md#1-print-where-i-am)  
++ [2. Create New Directory](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/README_HOMEWORK_1.md#2-create-new-directory)  
++ [3. Change directory  on current level/ go to created directory](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/README_HOMEWORK_1.md#3-change-directory--on-current-level-go-to-created-directory)  
++ [Create 3 directories at a time](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/README_HOMEWORK_1.md#4-create-3-directories-at-a-time)  
++ [5. Change directory to any other]()  
++ [6. Create files: 3 .txt and 2 .json files]() 
+           +[`cat` command]()
+           +[`echo` command]()
+           +[`touch` command]()
+           +[`vi` command]()
++ [7. Again creating 3 directories]()  
++ [Print the contents of directory]()  
++ [9. Открыть .txt файл, написать туда любой текст, сохранить и выйти](https://github.com/ipohaa/terminal/tree/main/homework1#9-11-открыть-txt-файл-написать-туда-любой-текст-сохранить-и-выйти)  
++ [10 Открыть .txt файл, написать туда любой текст, сохранить и выйти](https://github.com/ipohaa/terminal/tree/main/homework1#9-11-открыть-txt-файл-написать-туда-любой-текст-сохранить-и-выйти)  
++ [11. Открыть .txt файл, написать туда любой текст, сохранить и выйти](https://github.com/ipohaa/terminal/tree/main/homework1#9-11-открыть-txt-файл-написать-туда-любой-текст-сохранить-и-выйти)  
             [— Команда cat](https://github.com/ipohaa/terminal/tree/main/homework1#первый-вариант)  
             [— Редактор vim](https://github.com/ipohaa/terminal/tree/main/homework1#второй-вариант)
 + [12. Выйти из папки на уровень выше](https://github.com/ipohaa/terminal/tree/main/homework1#12-выйти-из-папки-на-уровень-выше)
@@ -66,7 +72,7 @@ $
 ```
 Note: by `ls` command you can list files of the directory
 
-## 5. Change directory to any  other:
+## 5. Change directory to any other:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $ cd dir1
@@ -81,7 +87,8 @@ $
 
 ## 6. Create files: 3 .txt and 2 .json files
 Here we have several options:
-   * `cat` command ( when finish to add information in file click `Ctrl+D` or `Ctrl+C` to save changes):
+   ### * `cat` command 
+( when finish to add information in file click `Ctrl+D` or `Ctrl+C` to save changes):
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
@@ -95,7 +102,7 @@ dir1/  dir2/  dir3/  file1.txt
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $ 
 ```
-   * `echo` command
+   ### * `echo` command
    
    Not empty file:
 ```
@@ -128,7 +135,7 @@ dir1/  dir2/  dir3/  file1.txt  file2.txt  file3.txt
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $
 ```
-   * `touch` command 
+   ### * `touch` command 
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
@@ -142,7 +149,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $
 ```
 
-   * `vi` command
+   ### * `vi` command
 
 Here I used `vi` editor (simular syntaxis in `vim ` editor):
 ```

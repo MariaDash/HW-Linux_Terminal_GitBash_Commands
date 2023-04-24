@@ -1,26 +1,26 @@
 # HW#1 Basic Linux commands created  with GitBash
-+ [1. Print where I am](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/README_HOMEWORK_1.md#1-print-where-i-am)  
-+ [2. Create New Directory](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/README_HOMEWORK_1.md#2-create-new-directory)  
-+ [3. Change directory  on current level/ go to created directory](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/README_HOMEWORK_1.md#3-change-directory--on-current-level-go-to-created-directory)  
-+ [Create 3 directories at a time](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/README_HOMEWORK_1.md#4-create-3-directories-at-a-time)  
-+ [5. Change directory to any other](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/README_HOMEWORK_1.md#5-change-directory-to-any--other)  
-+ [6. Create files: 3 .txt and 2 .json files](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/README_HOMEWORK_1.md#6-create-files-3-txt-and-2-json-files):  
-           [— `cat` command](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/README_HOMEWORK_1.md#cat-command)
-           [— `echo` command](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/README_HOMEWORK_1.md#echo-command)
-           [— `touch` command](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/README_HOMEWORK_1.md#touch-command)
-           [— `vi` command](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/README_HOMEWORK_1.md#vi-command)
++ [1. Print where I am]()  
++ [2. Create New Directory]()  
++ [3. Change directory  on current level/ go to created directory]()  
++ [Create 3 directories at a time]()  
++ [5. Change directory to any other]()  
++ [6. Create files: 3 .txt and 2 .json files]()  
+           [— `cat` command]()
+           [— `echo` command]()
+           [— `touch` command]()
+           [— `vi` command]()
 + [7. Again creating 3 directories]()  
-+ [Print the contents of directory]()  
-+ [9. Открыть .txt файл, написать туда любой текст, сохранить и выйти](https://github.com/ipohaa/terminal/tree/main/homework1#9-11-открыть-txt-файл-написать-туда-любой-текст-сохранить-и-выйти)  
-+ [10 Открыть .txt файл, написать туда любой текст, сохранить и выйти](https://github.com/ipohaa/terminal/tree/main/homework1#9-11-открыть-txt-файл-написать-туда-любой-текст-сохранить-и-выйти)  
-+ [11. Открыть .txt файл, написать туда любой текст, сохранить и выйти](https://github.com/ipohaa/terminal/tree/main/homework1#9-11-открыть-txt-файл-написать-туда-любой-текст-сохранить-и-выйти)  
-            [— Команда cat](https://github.com/ipohaa/terminal/tree/main/homework1#первый-вариант)  
-            [— Редактор vim](https://github.com/ipohaa/terminal/tree/main/homework1#второй-вариант)
-+ [12. Выйти из папки на уровень выше](https://github.com/ipohaa/terminal/tree/main/homework1#12-выйти-из-папки-на-уровень-выше)
-+ [13. Переместить любые 2 файла, которые вы создали, в любую другую папку.](https://github.com/ipohaa/terminal/tree/main/homework1#13-переместить-любые-2-файла-которые-вы-создали-в-любую-другую-папку)
-+ [14. Скопировать любые 2 файла, которые вы создали, в любую другую папку.](https://github.com/ipohaa/terminal/tree/main/homework1#14-скопировать-любые-2-файла-которые-вы-создали-в-любую-другую-папку)
-+ [15. Найти файл по имени](https://github.com/ipohaa/terminal/tree/main/homework1#15-найти-файл-по-имени)
-+ [16. Просмотреть содержимое в реальном времени](https://github.com/ipohaa/terminal/tree/main/homework1#16-просмотреть-содержимое-в-реальном-времени-команда-grep-tail-изучите-как-она-работает)  
++ [8. Print the contents of directory]()  
++ [9. Open any .txt file]()  
+           [— using `cat` command]()
+           [— using `vim` command]()
++ [10. Adding smth in the existing file:]()  
++ [11. Save changes in this file]()  
++ [12. Go to parent directory]()
++ [13. Move any two files to any other directory]()
++ [14. Copy any two files to any other directory cp command copy from parent to child directory]()
++ [15. Find a file by name]()
++ [16. Show file contents in real time and filter by pattern]()  
              [— Команда tail](https://github.com/ipohaa/terminal/tree/main/homework1#команда-tail)  
              [— Команда grep](https://github.com/ipohaa/terminal/tree/main/homework1#команда-grep)
 + [17. Вывести несколько первых строк из текстового файла](https://github.com/ipohaa/terminal/tree/main/homework1#17-вывести-несколько-первых-строк-из-текстового-файла)
@@ -239,7 +239,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $
 ```
 ## 9. Open any .txt file:
-using `cat` command:
+### using `cat` command:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $ cat file1.txt
@@ -248,7 +248,7 @@ first line
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $
 ```
-using `vim` command:
+### using `vim` command:
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
@@ -356,7 +356,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1/dir3 (main)
 $
 ```
 
-##14. Copy any two files to any other directory
+## 14. Copy any two files to any other directory
 `cp` command
 copy from `parent` to `child` directory:
 ```
@@ -405,7 +405,8 @@ $ find .  -name file1.txt
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1 (main)
 $
 ```
-## 16. Show file contents in real time and filter a pattern:
+## 16. Show file contents in real time and filter by pattern:
+### `tail` command
 Note: `tail` shows 10 strings by default
 `tail -f` command
 `grep` command
@@ -432,6 +433,31 @@ I will loose myself later
 I will continue adding lines later on
 ```
 Press CTRL+C to exit command
+
+### `grep` command
+Command is using as a filter for searching a pattern or a whole string, more often is used in concatenation with another commands like:
+```
+$ ls | grep file
+$ cat | grep "smth"
+```
+Also `grep` can be used independently:
+```
+$ grep Object text1.txt
+```
+Some additional extentions for `grep`:
++ `^` `"^word"` — head of string
++ `$` `"word$"` — end of string
++ `[abc]` `"[0-9]"` — any character from the brackets
++ `[^abc]` `"[^ ]1"` — any character in brackets
++ `.` `"Li.en.e"` — any character
++ `*` `"\([a-z ]*\"` — repeate zero or more times
++ `?` `"(copy)?right"` — repeate zero or one time
+
+and options
++ `-v` — print strings without a pattern
++ `-i` — case insensitive
++ `-w` - print strings with a standalone pattern
++ `-n` — print string numbers
 
 ## 17. Show some first  lines of the file:
 Note: `head` command show 10 first lines by default, if you need more or less , you can define the number of lines by adding `-number`:

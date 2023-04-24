@@ -1,5 +1,28 @@
 # HW#1 Basic Linux commands created  with GitBash
-
++ [1. Print where I am](https://github.com/ipohaa/terminal/tree/main/homework1#1-посмотреть-где-я)  
++ [2. Create New Directory](https://github.com/ipohaa/terminal/tree/main/homework1#2-создать-папку)  
++ [3. Change directory  on current level/ go to created directory](https://github.com/ipohaa/terminal/tree/main/homework1#3-зайти-в-папку)  
++ [Create 3 directories at a time](https://github.com/ipohaa/terminal/tree/main/homework1#4-создать-3-папки)  
++ [5. Change directory to any  other](https://github.com/ipohaa/terminal/tree/main/homework1#5-зайти-в-любую-папку)  
++ [6. Create files: 3 .txt and 2 .json files](https://github.com/ipohaa/terminal/tree/main/homework1#6-создать-5-файлов-3-txt-2-json)  
++ [7. Again creating 3 directories](https://github.com/ipohaa/terminal/tree/main/homework1#7-создать-3-папки)  
++ [Print the contents of directory](https://github.com/ipohaa/terminal/tree/main/homework1#8-вывести-список-содержимого-папки)  
++ [9-11. Открыть .txt файл, написать туда любой текст, сохранить и выйти](https://github.com/ipohaa/terminal/tree/main/homework1#9-11-открыть-txt-файл-написать-туда-любой-текст-сохранить-и-выйти)  
+            [— Команда cat](https://github.com/ipohaa/terminal/tree/main/homework1#первый-вариант)  
+            [— Редактор vim](https://github.com/ipohaa/terminal/tree/main/homework1#второй-вариант)
++ [12. Выйти из папки на уровень выше](https://github.com/ipohaa/terminal/tree/main/homework1#12-выйти-из-папки-на-уровень-выше)
++ [13. Переместить любые 2 файла, которые вы создали, в любую другую папку.](https://github.com/ipohaa/terminal/tree/main/homework1#13-переместить-любые-2-файла-которые-вы-создали-в-любую-другую-папку)
++ [14. Скопировать любые 2 файла, которые вы создали, в любую другую папку.](https://github.com/ipohaa/terminal/tree/main/homework1#14-скопировать-любые-2-файла-которые-вы-создали-в-любую-другую-папку)
++ [15. Найти файл по имени](https://github.com/ipohaa/terminal/tree/main/homework1#15-найти-файл-по-имени)
++ [16. Просмотреть содержимое в реальном времени](https://github.com/ipohaa/terminal/tree/main/homework1#16-просмотреть-содержимое-в-реальном-времени-команда-grep-tail-изучите-как-она-работает)  
+             [— Команда tail](https://github.com/ipohaa/terminal/tree/main/homework1#команда-tail)  
+             [— Команда grep](https://github.com/ipohaa/terminal/tree/main/homework1#команда-grep)
++ [17. Вывести несколько первых строк из текстового файла](https://github.com/ipohaa/terminal/tree/main/homework1#17-вывести-несколько-первых-строк-из-текстового-файла)
++ [18. Вывести несколько последних строк из текстового файла](https://github.com/ipohaa/terminal/tree/main/homework1#18-вывести-несколько-последних-строк-из-текстового-файла)
++ [19. Просмотреть содержимое длинного файла](https://github.com/ipohaa/terminal/tree/main/homework1#19-просмотреть-содержимое-длинного-файла-команда-less-изучите-как-она-работает)
++ [20. Вывести дату и время](https://github.com/ipohaa/terminal/tree/main/homework1#20-вывести-дату-и-время)
++ [21. * Отправить HTTP запрос на сервер.](https://github.com/ipohaa/terminal/tree/main/homework1#21-отправить-http-запрос-на-сервер)
++ [22. * Написать скрипт который выполнит пункты (3-8, 13) автоматически](https://github.com/ipohaa/terminal/tree/main/homework1#22-написать-скрипт-который-выполнит-автоматически-пункты-3-4-5-6-7-8-13)
 
 ## 1. Print where I am:
 `pwd` - print working directory
@@ -56,7 +79,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1/dir1 (main)
 $
 ```
 
-##6. Create files: 3 .txt and 2 .json files
+## 6. Create files: 3 .txt and 2 .json files
 Here we have several options:
    * `cat` command ( when finish to add information in file click `Ctrl+D` or `Ctrl+C` to save changes):
 
@@ -183,7 +206,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1 (main)
 $
 ```
 
-## 8. Print the content of directory:
+## 8. Print the contents of directory:
 `ls` -  command  which is allowed us to see the content of the current directory
 `ls -a` command show all files including hidden files
 `ls -l` - command from the list which allowed us to see the content of the current directory in a long format
@@ -218,7 +241,15 @@ first line
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $
 ```
+using `vim` command:
 
+```
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$ vim file1.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
+$
+```
 ## 10. Adding `smth` in the existing file:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)

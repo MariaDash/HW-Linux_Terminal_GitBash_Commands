@@ -4,11 +4,11 @@
 + [3. Change directory  on current level/ go to created directory](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/README_HOMEWORK_1.md#3-change-directory--on-current-level-go-to-created-directory)  
 + [Create 3 directories at a time](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/README_HOMEWORK_1.md#4-create-3-directories-at-a-time)  
 + [5. Change directory to any other](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/README_HOMEWORK_1.md#5-change-directory-to-any--other)  
-+ [6. Create files: 3 .txt and 2 .json files](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/README_HOMEWORK_1.md#6-create-files-3-txt-and-2-json-files): 
-           [— `cat` command]()
-           [— `echo` command]()
-           [— `touch` command]()
-           [— `vi` command]()
++ [6. Create files: 3 .txt and 2 .json files](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/README_HOMEWORK_1.md#6-create-files-3-txt-and-2-json-files):  
+           [— `cat` command](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/README_HOMEWORK_1.md#cat-command)
+           [— `echo` command](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/README_HOMEWORK_1.md#echo-command)
+           [— `touch` command](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/README_HOMEWORK_1.md#touch-command)
+           [— `vi` command](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/README_HOMEWORK_1.md#vi-command)
 + [7. Again creating 3 directories]()  
 + [Print the contents of directory]()  
 + [9. Открыть .txt файл, написать туда любой текст, сохранить и выйти](https://github.com/ipohaa/terminal/tree/main/homework1#9-11-открыть-txt-файл-написать-туда-любой-текст-сохранить-и-выйти)  

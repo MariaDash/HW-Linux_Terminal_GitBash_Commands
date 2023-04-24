@@ -327,6 +327,7 @@ $
 ----------------------------------------------------------------------------------
 #23 Find strings in files where 'sec' is located in the current directory. Case sensitive.
 
+1)only in dir_1:
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep 'sec' *
 grep: inner_dir_1: Is a directory
@@ -335,9 +336,22 @@ tf_2.txt:the sec 3
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
+2) in dir_1 and in child directory inner_dir_1:
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep -r 'sec' *
+inner_dir_1/inner_dir_1:the second 2
+inner_dir_1/inner_dir_1:the sec 2
+inner_dir_1/tf_3.txt:the sec 2
+tf_2.txt:the second 2
+tf_2.txt:the sec 3
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+
+
 ----------------------------------------------------------------------------------
 №24 Find strings in files where 'sec' is located in the current directory. Case insensitive.
-
+1) only in dir_1:
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep -i 'sec' *
 grep: inner_dir_1: Is a directory
@@ -347,9 +361,24 @@ tf_2.txt:the seConD 2
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
+2) in dir_ and in inner_dir_1:
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep -ir 'sec' *
+inner_dir_1/inner_dir_1:the second 2
+inner_dir_1/inner_dir_1:the sec 2
+inner_dir_1/inner_dir_1:the SeCoNd 2
+inner_dir_1/tf_3.txt:the sec 2
+inner_dir_1/tf_3.txt:the SeCoNd 2
+tf_2.txt:the second 2
+tf_2.txt:the sec 3
+tf_2.txt:the seConD 2
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
 -----------------------------------------------------------------------------------
 #25  Find strings in files where  'sec' is standalone pattern and is located in the current directory. Case sensitive.
-
+1) only in dir_1:
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep -w 'sec' *
 grep: inner_dir_1: Is a directory
@@ -357,9 +386,19 @@ tf_2.txt:the sec 3
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
+2) in dir_ and in inner_dir_1:
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep -rw 'sec' *
+inner_dir_1/inner_dir_1:the sec 2
+inner_dir_1/tf_3.txt:the sec 2
+tf_2.txt:the sec 3
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+
 ---------------------------------------------------------------------------------------------
 #26 Find strings in files where  'sec' is standalone pattern and is located in the current directory. Case insensitive.
-
+1) only in dir_1:
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep -iw 'sec' *
 grep: inner_dir_1: Is a directory
@@ -367,9 +406,19 @@ tf_2.txt:the sec 3
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
+2) in dir_ and in inner_dir_1:
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep -iwr 'sec' *
+inner_dir_1/inner_dir_1:the sec 2
+inner_dir_1/tf_3.txt:the sec 2
+tf_2.txt:the sec 3
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+
 ---------------------------------------------------------------------------------
 #27 Find strings in files where  'second' is standalone pattern and is located in the current directory. Case sensitive.
-
+1) only in dir_1:
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep 'second' *
 grep: inner_dir_1: Is a directory
@@ -377,9 +426,17 @@ tf_2.txt:the second 2
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
+2) in dir_ and in inner_dir_1:
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep -r 'second' *
+inner_dir_1/inner_dir_1:the second 2
+tf_2.txt:the second 2
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
 ---------------------------------------------------------------------------------------------------------------
 #28 Find strings in files where  'second' is standalone pattern and is located in the current directory. Case insensitive.
-
+1) only in dir_1:
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep -i 'second' *
 grep: inner_dir_1: Is a directory
@@ -388,26 +445,49 @@ tf_2.txt:the seConD 2
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
------------------------------------------------------------------------------------------------------------------------
-#29 Find strings in files where  'second' is standalone pattern and is located in all   directories level below . Case sensitive.
+2) in dir_ and in inner_dir_1:
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep -ir 'second' *
+inner_dir_1/inner_dir_1:the second 2
+inner_dir_1/inner_dir_1:the SeCoNd 2
+inner_dir_1/tf_3.txt:the SeCoNd 2
+tf_2.txt:the second 2
+tf_2.txt:the seConD 2
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+
+-----------------------------------------------------------------------------------------------------------------------
+#29 Find strings in files where  'second' is standalone pattern and is located in all   directories level below . Case sensitive.
+1) in dir_1 and in inner_dir_1
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep -r 'second' *
-inner_dir_1/tf_3.txt:the second 2
+inner_dir_1/inner_dir_1:the second 2
 tf_2.txt:the second 2
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
+2) in inner_dir_1 while locater in dir_1:
+
 ---------------------------------------------------------------------------------------
 #30 Find files and the path to files  containing strings with 'second' in the current directory. Case sensitive.
-1)Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+1)relative path in dir dir_1
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep  'second' ./*
 grep: ./inner_dir_1: Is a directory
+./tf_2.txt:the second 2
+2) in dir_ and in inner_dir_1:
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep  -r 'second' ./*
+./inner_dir_1/inner_dir_1:the second 2
 ./tf_2.txt:the second 2
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
-2) absolute path:
+
+3) absolute path in dir_1:
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep -l second *.* | xargs realpath
 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/tf_2.txt
@@ -447,12 +527,20 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ----------------------------------------------------------------------------------
 №32 Find files and the path to files  not containing strings with 'second'. Case sensitive.
-absolute path:
+1) relative path 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$ grep -rvl second *| xargs realpath
-/d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1/tf_3.txt
-/d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1/tF_5.txt
-/d/Testing_Course/Git/main_dir/sub_dir/dir_1/tf_2.txt
+$ grep -rvL second .
+./inner_dir_1/tf_4.txt
+./tf_1.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+
+2)absolute path:
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep -rvL second . |xargs realpath
+/d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1/tf_4.txt
+/d/Testing_Course/Git/main_dir/sub_dir/dir_1/tf_1.txt
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $

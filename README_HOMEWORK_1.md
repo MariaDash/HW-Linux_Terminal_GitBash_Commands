@@ -5,6 +5,12 @@
 + [Create 3 directories at a time]()  
 + [5. Change directory to any other]()  
 + [6. Create files: 3 .txt and 2 .json files]()  
+           [— `cat` command]()  
+           [— `echo` command]()
+           [— `touch` command]()  
+           [— `vi` command]()
+           
+           
            [— `cat` command]()
            [— `echo` command]()
            [— `touch` command]()

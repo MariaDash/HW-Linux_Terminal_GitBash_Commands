@@ -579,7 +579,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 -----------------------------------------------------------------------------------
 #35 One string command: create a directory & not empty file
-
+1) Creating a file and directory in the current directory
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ mkdir newdir |echo "1 2 3 4 5 " > newfile1.txt
 
@@ -593,6 +593,29 @@ $ cat newfile1.txt
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
+2) Create a file in the new directory
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ mkdir newdir && cat >> newdir/newfile1.txt
+1 2 3 4 5
+2
+3
+4
+5
+6
+
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ ls
+dir_2/  dir_3/  inner_dir_1/  newdir/  tf_1.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ ls newdir
+newfile1.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+
 ------------------------------------------------------------------------------
 #36 One string command. Move text files containing word "sec" in any other directory
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)

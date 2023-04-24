@@ -469,6 +469,15 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 2) in inner_dir_1 while locater in dir_1:
 
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep -r 'sec' ./*/
+./inner_dir_1/inner_dir_1:the second 2
+./inner_dir_1/inner_dir_1:the sec 2
+./inner_dir_1/tf_3.txt:the sec 2
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+
 ---------------------------------------------------------------------------------------
 #30 Find files and the path to files  containing strings with 'second' in the current directory. Case sensitive.
 1)relative path in dir dir_1
@@ -587,6 +596,8 @@ $
 ------------------------------------------------------------------------------
 #36
 ------------------------------------------------------------------------------
+#37
+------------------------------------------------------------------------------
 #38 One string command. Find all strings containing "sec" in all files . Print them all to a new file
 grep 'sec' * | cat > allfile.txt
 grep: inner_dir_1: Is a directory
@@ -600,6 +611,18 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ----------------------------------------------------------------------------------
 #39 One string command: Delete all text file with strings containig "sec"
+1) if combination "sec'
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep -rl sec | xargs rm
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+2) if standalone word "sec"
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep -rl room | xargs rm
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
 --------------------------------------------------------------------------------
 #40 Print "Good job!"
 

@@ -18,7 +18,7 @@
 + [11. Save changes in this file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#11-save-changes-in-this-file)  
 + [12. Go to parent directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#12-go-to-parent-directory)
 + [13. Move any two files to any other directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#13-move-any-two-files-to-any-other-directory)
-+ [14. Copy any two files to any other directory cp command copy from parent to child directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#14-copy-any-two-files-to-any-other-directory)
++ [14. Copy any two files to any other directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#14-copy-any-two-files-to-any-other-directory)
 + [15. Find a file by name](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#15-find-a-file-by-name)
 + [16. Show file contents in real time and filter by pattern](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#16-show-file-contents-in-real-time-and-filter-by-pattern)  
             [— `tail` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#tail-command)  

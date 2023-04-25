@@ -9,21 +9,26 @@
      [— `cat` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#cat-command)  
      [— `echo` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#echo-command)   
      [— `touch` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#touch-command)   
-     [— `vi` command ](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#vi-command)   
+     [— `vi` command ](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#vi-command) 
+     
 + [7. Again creating 3 directories](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#7-again-creating-3-directories)  
 + [8. Print the contents of directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#8-print-the-contents-of-directory)  
-+ [9. Open any .txt file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#9-open-any-txt-file)  
-            [— using `cat` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#using-cat-command)           
-            [— using `vim` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#using-vim-command)
++ [9. Open any .txt file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#9-open-any-txt-file) 
+ 
+     [— using `cat` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#using-cat-command)           
+     [— using `vim` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#using-vim-command)
+     
 + [10. Adding smth in the existing file:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#10-adding-smth-in-the-existing-file)  
 + [11. Save changes in this file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#11-save-changes-in-this-file)  
 + [12. Go to parent directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#12-go-to-parent-directory)
 + [13. Move any two files to any other directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#13-move-any-two-files-to-any-other-directory)
 + [14. Copy any two files to any other directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#14-copy-any-two-files-to-any-other-directory)
 + [15. Find a file by name](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#15-find-a-file-by-name)
-+ [16. Show file contents in real time and filter by pattern](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#16-show-file-contents-in-real-time-and-filter-by-pattern)  
-            [— `tail` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#tail-command)  
-            [— `grep` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#grep-command)
++ [16. Show file contents in real time and filter by pattern](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#16-show-file-contents-in-real-time-and-filter-by-pattern) 
+
+  [— `tail` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#tail-command)  
+  [— `grep` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#grep-command)
+  
 + [17. Show some first lines of the file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#17-show-some-first--lines-of-the-file)
 + [18. Show some last lines of the file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#18-show-some-last-lines-of-the-file)
 + [19. Show content of long file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#19-show-content-of-long-file)

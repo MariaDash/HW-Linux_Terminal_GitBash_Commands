@@ -42,7 +42,7 @@
 + [40. ]()
 
 
-## 1 Create dir_1 directory
+## 1. Create dir_1 directory
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir (main)
@@ -56,7 +56,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir (main)
 $
 ```
 
-## 2 Change directory to dir_1
+## 2. Change directory to dir_1
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir (main)
@@ -66,7 +66,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 3 Create directory inner_dir_1
+## 3. Create directory inner_dir_1
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
@@ -80,7 +80,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 4 Print where I am
+## 4. Print, where I am
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
@@ -91,7 +91,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 5 Create an empty text file tf_1.txt in dir_1 directory
+## 5. Create an empty text file tf_1.txt in dir_1 directory
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
@@ -108,7 +108,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 6 Create tf_2.txt file in dir_1 with following strings:
+## 6. Create tf_2.txt file in dir_1 with following strings:
 - the first 1
 - the second 2
 - the third 3
@@ -130,7 +130,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 7 Change directory to inner_dir_1
+## 7. Change directory to inner_dir_1
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
@@ -140,7 +140,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner
 $
 ```
 
-## 8 Create tf_3.txt file with any strings
+## 8. Create tf_3.txt file with any strings
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
@@ -153,7 +153,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner
 $
 ```
 
-## 9 Add the string "the second 2" to the file tf_3.txt using "cat" command
+## 9. Add the string "the second 2" to the file tf_3.txt using "cat" command
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
@@ -171,7 +171,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner
 $
 ```
 
-## 10 Add the string "the sec 2" to the file tf_3.txt using "cat" command
+## 10. Add the string "the sec 2" to the file tf_3.txt using "cat" command
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
@@ -182,7 +182,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner
 $
 ```
 
-## 11 Add the string "the sec 3" to the file tf_2.txt using "cat" command
+## 11. Add the string "the sec 3" to the file tf_2.txt using "cat" command
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
@@ -200,7 +200,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner
 $
 ```
 
-## 12 Add the string "the SeCoNd 2" to the file tf_3.txt using "cat" command
+## 12. Add the string "the SeCoNd 2" to the file tf_3.txt using "cat" command
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
@@ -220,7 +220,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner
 $
 ```
 
-## 13 Add the string "the seConD 2" to the file tf_2.txt using "cat" command
+## 13. Add the string "the seConD 2" to the file tf_2.txt using "cat" command
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
@@ -239,7 +239,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner
 $
 ```
 
-## 14 Create text file tf_4.txt containing 15 strings
+## 14. Create text file tf_4.txt containing 15 strings
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
@@ -271,7 +271,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $ 
 ```
 
-## 15 Create text file tF_5.txt containing 13 strings
+## 15. Create text file tF_5.txt containing 13 strings
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
@@ -302,7 +302,7 @@ $
 
 ```
 
-## 16 List all file in the directory
+## 16. List all file in the directory
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
@@ -318,7 +318,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner
 $
 ```
 
-## 17 Change directory from current inner_dir_1
+## 17. Change directory from current inner_dir_1
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
@@ -328,7 +328,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 18 Show the contetns of tf_3.txt file
+## 18. Show the contetns of tf_3.txt file
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
@@ -344,7 +344,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 19 Find path to tf_4.txt
+## 19. Find path to tf_4.txt
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
@@ -355,7 +355,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 20 Clear the contents of the file tf_4.txt without deleting it
+## 20. Clear the contents of the file tf_4.txt without deleting it
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
@@ -386,7 +386,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 21 Find path to files with 'tf' in the name. Case sensitive.
+## 21. Find path to files with 'tf' in the name. Case sensitive.
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
@@ -400,7 +400,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 22 Find path to files with 'tf' in the name. Case insensitive.
+## 22. Find path to files with 'tf' in the name. Case insensitive.
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
@@ -415,9 +415,9 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 23 Find strings in files where 'sec' is located in the current directory. Case sensitive.
+## 23. Find strings in files where 'sec' is located in the current directory. Case sensitive.
 
-### 1)only in dir_1:
+### 1) Only in dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep 'sec' *
@@ -429,7 +429,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-### 2) in dir_1 and in child directory inner_dir_1:
+### 2) In dir_1 and in child directory inner_dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep -r 'sec' *
@@ -443,8 +443,8 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 24 Find strings in files where 'sec' is located in the current directory. Case insensitive.
-### 1) only in dir_1:
+## 24. Find strings in files where 'sec' is located in the current directory. Case insensitive.
+### 1) Only in dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep -i 'sec' *
@@ -456,7 +456,7 @@ tf_2.txt:the seConD 2
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ```
-### 2) in dir_ and in inner_dir_1:
+### 2) In dir_ and in inner_dir_1:
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
@@ -474,8 +474,8 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 25  Find strings in files where  'sec' is standalone pattern and is located in the current directory. Case sensitive.
-### 1) only in dir_1:
+## 25.  Find strings in files where  'sec' is standalone pattern and is located in the current directory. Case sensitive.
+### 1) Only in dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep -w 'sec' *
@@ -485,7 +485,7 @@ tf_2.txt:the sec 3
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ```
-### 2) in dir_ and in inner_dir_1:
+### 2) In dir_ and in inner_dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep -rw 'sec' *
@@ -497,8 +497,8 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 26 Find strings in files where  'sec' is standalone pattern and is located in the current directory. Case insensitive.
-### 1) only in dir_1:
+## 26. Find strings in files where  'sec' is standalone pattern and is located in the current directory. Case insensitive.
+### 1) Only in dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep -iw 'sec' *
@@ -508,7 +508,7 @@ tf_2.txt:the sec 3
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ```
-### 2) in dir_ and in inner_dir_1:
+### 2) In dir_ and in inner_dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep -iwr 'sec' *
@@ -520,8 +520,8 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 27 Find strings in files where  'second' is standalone pattern and is located in the current directory. Case sensitive.
-### 1) only in dir_1:
+## 27. Find strings in files where  'second' is standalone pattern and is located in the current directory. Case sensitive.
+### 1) Only in dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep 'second' *
@@ -531,7 +531,7 @@ tf_2.txt:the second 2
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ```
-### 2) in dir_ and in inner_dir_1:
+### 2) In dir_ and in inner_dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep -r 'second' *
@@ -542,8 +542,8 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 28 Find strings in files where  'second' is standalone pattern and is located in the current directory. Case insensitive.
-### 1) only in dir_1:
+## 28. Find strings in files where  'second' is standalone pattern and is located in the current directory. Case insensitive.
+### 1) Only in dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep -i 'second' *
@@ -554,7 +554,7 @@ tf_2.txt:the seConD 2
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ```
-### 2) in dir_ and in inner_dir_1:
+### 2) In dir_ and in inner_dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep -ir 'second' *
@@ -567,8 +567,8 @@ tf_2.txt:the seConD 2
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ```
-## 29 Find strings in files where  'second' is standalone pattern and is located in all   directories level below . Case sensitive.
-### 1) in dir_1 and in inner_dir_1
+## 29. Find strings in files where  'second' is standalone pattern and is located in all   directories level below . Case sensitive.
+### 1) In dir_1 and in inner_dir_1
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep -r 'second' *
@@ -578,7 +578,7 @@ tf_2.txt:the second 2
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ```
-### 2) in inner_dir_1 while locater in dir_1:
+### 2) In inner_dir_1 while locater in dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep -r 'sec' ./*/
@@ -590,15 +590,15 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 30 Find files and the path to files  containing strings with 'second' in the current directory. Case sensitive.
-### 1)relative path in dir dir_1
+## 30. Find files and the path to files  containing strings with 'second' in the current directory. Case sensitive.
+### 1) Relative path in dir dir_1
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep  'second' ./*
 grep: ./inner_dir_1: Is a directory
 ./tf_2.txt:the second 2
 ```
-### 2) in dir_ and in inner_dir_1:
+### 2) In dir_ and in inner_dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
@@ -610,7 +610,7 @@ $ grep  -r 'second' ./*
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ```
-### 3) absolute path in dir_1:
+### 3) Absolute path in dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep -l second *.* | xargs realpath
@@ -621,7 +621,7 @@ $
 ```
 Note: *.* - in current directory
 
-## 31 Find strings in files where  'second' is standalone pattern and is located in the current directory. Case sensitive.
+## 31. Find strings in files where  'second' is standalone pattern and is located in the current directory. Case sensitive.
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
@@ -652,8 +652,8 @@ tf_2.txt:the seConD 2
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ```
-## 32 Find files and the path to files  not containing strings with 'second'. Case sensitive.
-### 1) relative path 
+## 32. Find files and the path to files  not containing strings with 'second'. Case sensitive.
+### 1) Relative path 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep -rvL second .
@@ -663,7 +663,7 @@ $ grep -rvL second .
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ```
-### 2)absolute path:
+### 2) Absolute path:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep -rvL second . |xargs realpath
@@ -673,7 +673,7 @@ $ grep -rvL second . |xargs realpath
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ```
-## 33 Print last 4 strings of any text file
+## 33. Print last 4 strings of any text file
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
@@ -687,7 +687,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 34 Print first 4 strings of any text file
+## 34. Print first 4 strings of any text file
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
@@ -701,7 +701,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 35 One string command: create a directory & not empty file
+## 35. One string command: create a directory & not empty file
 ### 1) Creating a file and directory in the current directory
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
@@ -743,7 +743,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 36 One string command. Move text files containing word "sec" in any other directory
+## 36. One string command. Move text files containing word "sec" in any other directory
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep -rlw "sec" | xargs mv -t dir_2
@@ -755,7 +755,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 37 One string command. Copy text files containing word "sec" in any other directory
+## 37. One string command. Copy text files containing word "sec" in any other directory
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep -rlw "sec" | xargs cp -t dir_3
@@ -768,7 +768,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 38 One string command. Find all strings containing "sec" in all files . Print them all to a new file
+## 38. One string command. Find all strings containing "sec" in all files . Print them all to a new file
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep 'sec' * | cat > allfile.txt
@@ -783,8 +783,8 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 39 One string command: Delete all text file with strings containig word "sec"
-### 1) if combination "sec'
+## 39. One string command: Delete all text file with strings containig word "sec"
+### 1) If combination "sec'
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep -rl sec | xargs rm
@@ -792,7 +792,7 @@ $ grep -rl sec | xargs rm
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ```
-### 2) if standalone word "sec"
+### 2) If standalone word "sec"
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep -rlw sec | xargs rm
@@ -801,7 +801,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 40 Print "Good job!"
+## 40. Print "Good job!"
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)

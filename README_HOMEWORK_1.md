@@ -501,7 +501,7 @@ Imagine that we don`t have any large file, so we can download it from the web or
 **Step1.** 
 Option 1: download a sample large file to the current directory manually in GUI (download [here](https://www.learningcontainer.com/sample-text-file/))
 
-Option 2 (advanced): create a file in bash by using for loop (e.g. we want to create a file with a name 'happy.txt' and add a sample line 1000 times, each paragraph from a new line)
+Option 2 (advanced): create a file in bash by using `for` loop (e.g. we want to create a file with a name 'happy.txt' and add a sample line 1000 times, each paragraph from a new line)
 The echo command prints text to the file, and > redirect/saves file in file location
 ```
 for i in {0..1000}; do echo "${i} I am happy and I know it."; done > happy.txt

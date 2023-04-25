@@ -94,7 +94,7 @@ $
 
 ## 6. Create files: 3 .txt and 2 .json files
 Here we have several options:
-   ###  `cat` command 
+   ###  1. `cat` command 
 ( when finish to add information in file click `Ctrl+D` or `Ctrl+C` to save changes):
 
 ```
@@ -109,7 +109,7 @@ dir1/  dir2/  dir3/  file1.txt
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $ 
 ```
-   ###  `echo` command
+   ### 2. `echo` command
    
    Not empty file:
 ```
@@ -142,7 +142,7 @@ dir1/  dir2/  dir3/  file1.txt  file2.txt  file3.txt
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $
 ```
-   ###  `touch` command 
+   ###  3. `touch` command 
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
@@ -156,7 +156,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $
 ```
 
-   ###  `vi` command
+   ###  4. `vi` command
 
 Here I used `vi` editor (simular syntaxis in `vim ` editor):
 ```
@@ -247,7 +247,7 @@ $
 ```
 ## 9. Open any .txt file
 Here we have two options:
-### using `cat` command
+### 1. using `cat` command
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $ cat file1.txt
@@ -256,7 +256,7 @@ first line
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $
 ```
-### using `vim` command
+### 2. using `vim` command
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)

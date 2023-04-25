@@ -7,7 +7,7 @@
 + [6. Create files: 3 .txt and 2 .json files]()  
            [— `cat` command]()  
            [— `echo` command]()
-          [— `touch` command]()  
+           [— `touch` command]()  
            [— `vi` command]()               
 + [7. Again creating 3 directories]()  
 + [8. Print the contents of directory]()  

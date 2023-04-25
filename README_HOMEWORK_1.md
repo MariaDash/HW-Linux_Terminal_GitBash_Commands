@@ -408,8 +408,9 @@ $
 ## 16. Show file contents in real time and filter by pattern:
 ### `tail` command
 Note: `tail` shows 10 strings by default
-`tail -f` command
-`grep` command
+* `tail -f` command
+* `grep` command
+
 **Step 1**: use combination of tail and grep for e.g. `later` pattern
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1 (main)

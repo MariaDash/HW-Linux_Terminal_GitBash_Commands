@@ -21,7 +21,7 @@
          
 + [15. Create text file tF_5.txt containing 13 strings:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#15-create-text-file-tf_5txt-containing-13-strings)
 
-     [— Creating numbers manually](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-creating-numbers-manually)  
+     [— Creating numbers manually](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-creating-numbers-manually-1)  
      [— Creating numbers automatically](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-creating-numbers-automatically-1)   
          
 + [16. List all file in the directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#16-list-all-file-in-the-directory)
@@ -33,34 +33,38 @@
 + [22. Find path to files with 'tf' in the name. Case insensitive](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#22-find-path-to-files-with-tf-in-the-name-case-insensitive) 
 + [23. Find strings in files where 'sec' is located in the current directory. Case sensitive:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#23-find-strings-in-files-where-sec-is-located-in-the-current-directory-case-sensitive) 
 
-     [- Only in dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-only-in-dir_1) 
-     [- In dir_1 and in child directory inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-dir_1-and-in-child-directory-inner_dir_1)
-     
+     [— Only in dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-only-in-dir_1)  
+     [— In dir_1 and in child directory inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-dir_1-and-in-child-directory-inner_dir_1)   
+        
 + [24. Find strings in files where 'sec' is located in the current directory. Case insensitive:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#24-find-strings-in-files-where-sec-is-located-in-the-current-directory-case-insensitive)
 
-     [- Only in dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-only-in-dir_1-1)
-     [- In dir_ and in inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-dir_-and-in-inner_dir_1)
-     
+     [— Only in dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-only-in-dir_1-1)  
+     [— In dir_1 and in inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-dir_-and-in-inner_dir_1)   
+
 + [25. Find strings in files where 'sec' is standalone pattern and is located in the current directory. Case sensitive:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#25--find-strings-in-files-where--sec-is-standalone-pattern-and-is-located-in-the-current-directory-case-sensitive)
  
-     [- Only in dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-only-in-dir_1-2)
-     [- In dir_ and in inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-dir_-and-in-inner_dir_1-1)
+     [— Only in dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-only-in-dir_1-2)  
+     [— In dir_1 and in inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-dir_-and-in-inner_dir_1-1)   
      
 + [26. Find strings in files where 'sec' is standalone pattern and is located in the current directory. Case insensitive](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#26-find-strings-in-files-where--sec-is-standalone-pattern-and-is-located-in-the-current-directory-case-insensitive) 
-     [- Only in dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-only-in-dir_1-3)
-     [- In dir_ and in inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-dir_-and-in-inner_dir_1-2)
+     
+     [— Only in dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-only-in-dir_1-3)  
+     [— In dir_1 and in inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-dir_-and-in-inner_dir_1-2)   
+   
 + [27. Find strings in files where 'second' is standalone pattern and is located in the current directory. Case sensitive:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#27-find-strings-in-files-where--second-is-standalone-pattern-and-is-located-in-the-current-directory-case-sensitive)  
 
-     [- Only in dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-only-in-dir_1-4) 
-     [- In dir_ and in inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-dir_-and-in-inner_dir_1-3)  
-     
+     [— Only in dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-only-in-dir_1-4)  
+     [— In dir_1 and in inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-dir_-and-in-inner_dir_1-3)   
+       
 + [28. Find strings in files where 'second' is standalone pattern and is located in the current directory. Case insensitive](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#28-find-strings-in-files-where--second-is-standalone-pattern-and-is-located-in-the-current-directory-case-insensitive)
-     [- Only in dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-only-in-dir_1-5) 
-     [- In dir_ and in inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-dir_-and-in-inner_dir_1-4)  
+   
+     [— Only in dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-only-in-dir_1-5)  
+     [— In dir_1 and in inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-dir_-and-in-inner_dir_1-4)   
+
 + [29. Find strings in files where 'second' is standalone pattern and is located in all directories level below . Case sensitive:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#29-find-strings-in-files-where--second-is-standalone-pattern-and-is-located-in-all---directories-level-below--case-sensitive)  
 
-     [- In dir_1 and in inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-in-dir_1-and-in-inner_dir_1) 
-     [- In inner_dir_1 while located in dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-inner_dir_1-while-located-in-dir_1)  
+     [— In dir_1 and in inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-in-dir_1-and-in-inner_dir_1)  
+     [— In inner_dir_1 while located in dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-inner_dir_1-while-located-in-dir_1)   
      
 + [30. Find files and the path to files containing strings with 'second' in the current directory. Case sensitive:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#30-find-files-and-the-path-to-files--containing-strings-with-second-in-the-current-directory-case-sensitive)
 

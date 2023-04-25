@@ -263,7 +263,7 @@ $
 ```
 
 ## 14. Create text file tf_4.txt containing 15 strings
-
+### 1. Creating numbers manually
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
 $ cat > tf_4.txt
@@ -287,13 +287,42 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner
 $
 ```
 or 
+### 2. Creating numbers automatically
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
 $ seq 15 | cat > tf_4.txt
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ 
 ```
+or 
+### 3.Creating strings automatically
 
+```
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ touch tf_6.txt; printf "Line %s\n" {1..15} > tf_6.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ cat tf_6.txt
+Line 1
+Line 2
+Line 3
+Line 4
+Line 5
+Line 6
+Line 7
+Line 8
+Line 9
+Line 10
+Line 11
+Line 12
+Line 13
+Line 14
+Line 15
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+
+```
 ## 15. Create text file tF_5.txt containing 13 strings
 
 ```

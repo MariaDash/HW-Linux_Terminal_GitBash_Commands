@@ -29,6 +29,10 @@
 + [20. Show current date&time](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#20-show-current-datetime)
 + [21. * Send an http request to the server](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#21-send-an-http-request-to-the-server-http16255220725005terminal-hw-request)
 + [22. * Write a bash script which does the steps above (# 3-8, # 13)](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#22-write-a-bash-script-which-does-the-steps-above--3-8--13)
+           [— using `cat` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#using-cat-command)           
+            [— using `vim` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#using-vim-command)
+            [— using `cat` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#using-cat-command)           
+            [— using `vim` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#using-vim-command)
 
 ## 1. Print where I am:
 `pwd` - print working directory

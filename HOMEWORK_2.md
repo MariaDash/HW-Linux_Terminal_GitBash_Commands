@@ -15,15 +15,15 @@
 + [13. Add the string "the seConD 2" to the file tf_2.txt using "cat" command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#13-add-the-string-the-second-2-to-the-file-tf_2txt-using-cat-command)  
 + [14. Create text file tf_4.txt containing 15 strings:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#14-create-text-file-tf_4txt-containing-15-strings) 
 
-     [- Creating numbers manually](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-creating-numbers-manually)
-     [- Creating numbers automatically](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-creating-numbers-automatically)
-     [- Creating strings automatically](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#3-creating-strings-automatically)
-     
+     [— Creating numbers manually](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-creating-numbers-manually)  
+     [— Creating numbers automatically](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-creating-numbers-automatically)   
+     [— Creating strings automatically](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#3-creating-strings-automatically)  
+         
 + [15. Create text file tF_5.txt containing 13 strings:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#15-create-text-file-tf_5txt-containing-13-strings)
 
-     [- Creating numbers manually](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-creating-numbers-manually)
-     [- Creating numbers automatically](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-creating-numbers-automatically-1)
-     
+     [— Creating numbers manually](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-creating-numbers-manually)  
+     [— Creating numbers automatically](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-creating-numbers-automatically-1)   
+         
 + [16. List all file in the directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#16-list-all-file-in-the-directory)
 + [17. Change directory from current inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#17-change-directory-from-current-inner_dir_1)  
 + [18. Show the contetns of tf_3.txt file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#18-show-the-contetns-of-tf_3txt-file) 

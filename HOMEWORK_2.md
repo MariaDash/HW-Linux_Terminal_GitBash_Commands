@@ -68,30 +68,31 @@
      
 + [30. Find files and the path to files containing strings with 'second' in the current directory. Case sensitive:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#30-find-files-and-the-path-to-files--containing-strings-with-second-in-the-current-directory-case-sensitive)
 
-     [- Relative path in dir dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-relative-path-in-dir-dir_1)
-     [- In dir_ and in inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-dir_-and-in-inner_dir_1-5)  
-     [- Absolute path in dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#3-absolute-path-in-dir_1) 
-     
+     [— Relative path in dir dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-relative-path-in-dir-dir_1)  
+     [— In dir_ and in inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-dir_-and-in-inner_dir_1-5)   
+     [— Absolute path in dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#3-absolute-path-in-dir_1)  
+        
 + [31. Find strings in files where 'second' is standalone pattern and is located in the current directory. Case sensitive](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#31-find-strings-in-files-where--second-is-standalone-pattern-and-is-located-in-the-current-directory-case-sensitive)  
 + [32. Find files and the path to files not containing strings with 'second'. Case sensitive:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#32-find-files-and-the-path-to-files--not-containing-strings-with-second-case-sensitive)
 
-     [- Relative path](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-relative-path) 
-     [- Absolute path](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-absolute-path)  
-     
+     [— Relative path](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-relative-path)  
+     [— Absolute path](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-absolute-path) 
+       
 + [33. Print last 4 strings of any text file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#33-print-last-4-strings-of-any-text-file)  
 + [34. Print first 4 strings of any text file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#34-print-first-4-strings-of-any-text-file) 
 + [35. One string command: create a directory & not empty file:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#35-one-string-command-create-a-directory--not-empty-file) 
 
-     [- Creating a file and directory in the current directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-creating-a-file-and-directory-in-the-current-directory) 
-     [- Create a file in the new directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-create-a-file-in-the-new-directory) 
+     [— Creating a file and directory in the current directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-creating-a-file-and-directory-in-the-current-directory)  
+     [— Create a file in the new directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-create-a-file-in-the-new-directory) 
      
 + [36. One string command. Move text files containing word "sec" in any other directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#36-one-string-command-move-text-files-containing-word-sec-in-any-other-directory)
 + [37. One string command. Copy text files containing word "sec" in any other directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#37-one-string-command-copy-text-files-containing-word-sec-in-any-other-directory)  
 + [38. One string command. Find all strings containing "sec" in all files . Print them all to a new file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#38-one-string-command-find-all-strings-containing-sec-in-all-files--print-them-all-to-a-new-file) 
 + [39. One string command: Delete all text file with strings containig word "sec":](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#39-one-string-command-delete-all-text-file-with-strings-containig-word-sec) 
  
-     [- If combination "sec'](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-if-combination-sec) 
-     [- If standalone word "sec"](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-if-standalone-word-sec) 
+     [— If combination "sec"](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-if-combination-sec)  
+     [— If standalone word "sec"](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-if-standalone-word-sec) 
+   
      
 + [40. Print "Good job!"](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#40-print-good-job)
 

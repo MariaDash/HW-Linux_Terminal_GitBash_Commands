@@ -1,4 +1,4 @@
-# HW#2 Basic Linux commands created  with GitBash
+# Homework#2: Basic Linux commands created  with GitBash
 
 + [1. Create dir_1 directory]()  
 + [2.Change directory to dir_1]() 

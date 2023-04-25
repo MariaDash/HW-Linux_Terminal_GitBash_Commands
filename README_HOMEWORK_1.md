@@ -41,7 +41,7 @@ $ pwd
 
 ## 2. Create New Directory:
 `mkdir` - make new directory
-`mkdir dir1` - create directory dir1
+`mkdir dir1` - create directory dir1 
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git (main)

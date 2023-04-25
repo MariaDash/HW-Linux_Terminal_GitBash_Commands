@@ -5,10 +5,11 @@
 + [4. Create 3 directories at a time](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#4-create-3-directories-at-a-time)  
 + [5. Change directory to any other](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#5-change-directory-to-any-other)  
 + [6. Create files: 3 .txt and 2 .json files](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#6-create-files-3-txt-and-2-json-files) 
-            [— `cat` command  ](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#cat-command)  
-            [— `echo` command ](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#echo-command)
-            [— `touch` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#touch-command)  
-            [— `vi` command   ](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#vi-command)
+         
+            + [ `cat` command  ](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#cat-command)  
+            + [ `echo` command ](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#echo-command)
+            + [ `touch` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#touch-command)  
+            + [ `vi` command   ](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#vi-command)
 + [7. Again creating 3 directories](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#7-again-creating-3-directories)  
 + [8. Print the contents of directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#8-print-the-contents-of-directory)  
 + [9. Open any .txt file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#9-open-any-txt-file)  
@@ -30,11 +31,7 @@
 + [21. * Send an http request to the server](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#21-send-an-http-request-to-the-server-http16255220725005terminal-hw-request)
 + [22. * Write a bash script which does the steps above (# 3-8, # 13)](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#22-write-a-bash-script-which-does-the-steps-above--3-8--13)
          
-           +[ using `cat` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#using-cat-command)           
-           +[ using `vim` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#using-vim-command)
-           +[ using `cat` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#using-cat-command)           
-           +[ using `vim` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#using-vim-command)
-
+          
 ## 1. Print where I am:
 `pwd` - print working directory
 

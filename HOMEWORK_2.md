@@ -324,7 +324,7 @@ $
 
 ```
 ## 15. Create text file tF_5.txt containing 13 strings
-
+### 1. Creating numbers matually
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
 $ cat > tF_5.txt
@@ -346,6 +346,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner
 $
 ```
 or
+### 2. Creating numbers automatically
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
 $ seq 13 | cat > tF_5.txt
@@ -671,7 +672,7 @@ $ grep -l second *.* | xargs realpath
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ 
 ```
-Note: *.* - in current directory
+Note: `.` - in current directory
 
 ## 31. Find strings in files where  'second' is standalone pattern and is located in the current directory. Case sensitive.
 

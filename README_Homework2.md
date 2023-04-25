@@ -769,7 +769,9 @@ $
 ```
 
 ## 38 One string command. Find all strings containing "sec" in all files . Print them all to a new file
-grep 'sec' * | cat > allfile.txt
+```
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep 'sec' * | cat > allfile.txt
 grep: inner_dir_1: Is a directory
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
@@ -779,7 +781,8 @@ tf_2.txt:the sec 3
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
-----------------------------------------------------------------------------------
+```
+
 ## 39 One string command: Delete all text file with strings containig word "sec"
 ### 1) if combination "sec'
 ```

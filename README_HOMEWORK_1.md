@@ -13,6 +13,7 @@
 + [8. Print the contents of directory]()  
 + [9. Open any .txt file]()  
            [— using `cat` command]()
+           
            [— using `vim` command]()
 + [10. Adding smth in the existing file:]()  
 + [11. Save changes in this file]()  

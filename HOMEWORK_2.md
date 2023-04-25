@@ -295,7 +295,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $ 
 ```
 or 
-### 3.Creating strings automatically
+### 3. Creating strings automatically
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)

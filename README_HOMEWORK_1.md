@@ -4,7 +4,7 @@
 + [3. Change directory  on current level/ go to created directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#3-change-directory--on-current-level-go-to-created-directory)  
 + [4. Create 3 directories at a time](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#4-create-3-directories-at-a-time)  
 + [5. Change directory to any other](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#5-change-directory-to-any-other)  
-+ [6. Create files: 3 .txt and 2 .json files](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#6-create-files-3-txt-and-2-json-files)
++ [6. Create files: 3 .txt and 2 .json files](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#6-create-files-3-txt-and-2-json-files):
    
      [— `cat` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#cat-command)  
      [— `echo` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#echo-command)   
@@ -13,7 +13,7 @@
      
 + [7. Again creating 3 directories](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#7-again-creating-3-directories)  
 + [8. Print the contents of directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#8-print-the-contents-of-directory)  
-+ [9. Open any .txt file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#9-open-any-txt-file) 
++ [9. Open any .txt file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#9-open-any-txt-file): 
  
      [— using `cat` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#using-cat-command)           
      [— using `vim` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#using-vim-command)
@@ -24,7 +24,7 @@
 + [13. Move any two files to any other directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#13-move-any-two-files-to-any-other-directory)
 + [14. Copy any two files to any other directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#14-copy-any-two-files-to-any-other-directory)
 + [15. Find a file by name](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#15-find-a-file-by-name)
-+ [16. Show file contents in real time and filter by pattern](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#16-show-file-contents-in-real-time-and-filter-by-pattern) 
++ [16. Show file contents in real time and filter by pattern](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#16-show-file-contents-in-real-time-and-filter-by-pattern): 
 
   [— `tail` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#tail-command)  
   [— `grep` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#grep-command)
@@ -246,6 +246,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $
 ```
 ## 9. Open any .txt file
+Here we have two options:
 ### using `cat` command
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
@@ -413,6 +414,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1 (main)
 $
 ```
 ## 16. Show file contents in real time and filter by pattern
+Here we have two options:
 ### `tail` command
 Note: `tail` shows 10 strings by default
 

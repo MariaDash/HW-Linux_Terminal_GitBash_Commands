@@ -221,15 +221,15 @@ $
 ```
 
 ## 8. Print the contents of directory
-`ls` -  command  which is allowed us to see the content of the current directory
-`ls -a` command show all files including hidden files
-`ls -l` - command from the list which allowed us to see the content of the current directory in a long format
- .bash_history - example of a hidden file  - there all files started name with a dot.
-`ls -a -l`  or `ls -al` or `ls -la`  - all files with parameters
-`ls -t` - sort by modification time (date)
-`ls -tr` - sort by modification time (date) reverse order
-`ls -ltr`  - sort by modification time (date) reverse order in long format
-I will show my favourite one - the last:
++ `ls` -  command  which is allowed us to see the content of the current directory
++ `ls -a` command show all files including hidden files
++ `ls -l` - command from the list which allowed us to see the content of the current directory in a long format
+Note: `.bash_history` - example of a hidden file  - there all files started name with a dot.
++ `ls -a -l`  or `ls -al` or `ls -la`  - all files with parameters
++ `ls -t` - sort by modification time (date)
++ `ls -tr` - sort by modification time (date) reverse order
++ `ls -ltr`  - sort by modification time (date) reverse order in long format
++ I will show my favourite one - the last:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $ ls -ltr
@@ -278,15 +278,15 @@ $
 
 
 ## 11. Save changes in this file
-`Ctrl+D` or `Ctrl+C`
-Or using vi editor:
-vi file.txt 
-Change from command to input mode by typing `i` 
-insert smth
-push the button 'Escape' to change mode to command
-type `:w` to write file and then `:q` to exit or you can do it at one time: `:wq`
++ `Ctrl+D` or `Ctrl+C`
++ Or using vi editor:
+    - vi file.txt 
+    - Change from command to input mode by typing `i` 
+    - insert smth
+    - push the button 'Escape' to change mode to command
+    - type `:w` to write file and then `:q` to exit or you can do it at one time: `:wq`
 
-or using `vim` editor:
++ or using `vim` editor:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $ vim file1.txt
@@ -494,8 +494,8 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1 (main)
 $
 ```
 ## 19. Show content of long file
-`less filename` -  open a big file
-`more filename` - open a big file with enable progress( in %) of reading option (in cmd, not in GitBash):
++ `less filename` -  open a big file
++ `more filename` - open a big file with enable progress( in %) of reading option (in cmd, not in GitBash):
 
 Imagine that we don`t have any large file, so we can download it from the web or create by ourselves.
 
@@ -516,11 +516,11 @@ $ less happy.txt
 ```
 Next, we can see  file contents and can navigate:
 
-type `-N` to show string numbers
-type `/happy` to highlight all `happy` words in this file
-after the previous command, type `/` and `Enter` to go to the next found keyword in the file
-press `space` to go to the next page
-press `q` to exit
++ type `-N` to show string numbers
++ type `/happy` to highlight all `happy` words in this file
++ after the previous command, type `/` and `Enter` to go to the next found keyword in the file
++ press `space` to go to the next page
++ press `q` to exit
 
 ## 20. Show current `date&time`
 `date` command

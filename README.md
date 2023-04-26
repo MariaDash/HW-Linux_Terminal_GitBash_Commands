@@ -10,7 +10,7 @@ is a command shell for UNIX-like operating systems (UNIX, GNU/Linux, MacOS). It 
 ## What does bash do? 
 The shell takes commands that the user has entered on the command line and interprets them, that is, translates them into machine code. The operating system receives code as instructions and executes them. There is another way to use it: creating bash or shell scripts that are saved in a file. Each time the file is run, the set of commands specified in it will be executed.
 
-## Why use bash? 
+## Why to use bash? 
 The same actions with files, folders and search can be performed using the OS GUI. But it is longer, more inconvenient and more difficult. Programmers use bash or shell to make working with the system easier and faster. For example, to copy a file using the graphical interface, you need to open the folder where it is located, right-click on the file, call the context menu and select "Copy". And if you use the command line and bash, you will need to enter one command.
 
 ## How to run bash? 

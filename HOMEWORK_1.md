@@ -64,7 +64,7 @@ $ cd dir1
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $
 ```
-## 4. Create 3 directories at a time
+## 4. Create 3 directories at a time 
 Creating directories in `dir1`:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)

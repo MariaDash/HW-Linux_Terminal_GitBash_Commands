@@ -4,7 +4,7 @@
 + [3. Change directory  on current level/ go to created directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#3-change-directory--on-current-level-go-to-created-directory)  
 + [4. Create 3 directories at a time](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#4-create-3-directories-at-a-time)  
 + [5. Change directory to any other](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#5-change-directory-to-any-other)  
-+ [6. Create files: 3 .txt and 2 .json files:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#6-create-files-3-txt-and-2-json-files)
++ [6. Create files: 3 .txt and 2 .json files:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#5-change-directory-to-any-other)
    
      [— `cat` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#cat-command)  
      [— `echo` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#echo-command)   

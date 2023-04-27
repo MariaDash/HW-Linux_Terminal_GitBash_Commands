@@ -27,7 +27,7 @@
 + [16. Show file contents in real time and filter by pattern:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#16-show-file-contents-in-real-time-and-filter-by-pattern) 
 
   [— `tail` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#tail-command)  
-  [— `grep` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#grep-command)
+  [— `grep` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#grep-command) 
   
 + [17. Show some first lines of the file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#17-show-some-first--lines-of-the-file)
 + [18. Show some last lines of the file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#18-show-some-last-lines-of-the-file)

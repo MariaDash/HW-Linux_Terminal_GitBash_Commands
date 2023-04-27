@@ -21,20 +21,20 @@
 + [10. Adding smth in the existing file:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#10-adding-smth-in-the-existing-file)  
 + [11. Save changes in this file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#11-save-changes-in-this-file)  
 + [12. Go to parent directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#12-go-to-parent-directory)
-+ [13. Move any two files to any other directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#13-move-any-two-files-to-any-other-directory)
-+ [14. Copy any two files to any other directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#14-copy-any-two-files-to-any-other-directory)
-+ [15. Find a file by name](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#15-find-a-file-by-name)
-+ [16. Show file contents in real time and filter by pattern:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#16-show-file-contents-in-real-time-and-filter-by-pattern) 
++ [13. Move any two files to any other directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#13-move-any-two-files-to-any-other-directory)
++ [14. Copy any two files to any other directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#14-copy-any-two-files-to-any-other-directory)
++ [15. Find a file by name](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#15-find-a-file-by-name)
++ [16. Show file contents in real time and filter by pattern:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#16-show-file-contents-in-real-time-and-filter-by-pattern) 
 
-  [— `tail` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#tail-command)  
-  [— `grep` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#grep-command) 
+  [— `tail` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#tail-command)  
+  [— `grep` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#grep-command) 
   
-+ [17. Show some first lines of the file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#17-show-some-first--lines-of-the-file)
-+ [18. Show some last lines of the file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#18-show-some-last-lines-of-the-file)
-+ [19. Show content of long file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#19-show-content-of-long-file)
-+ [20. Show current date&time](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#20-show-current-datetime)
-+ [21. * Send an http request to the server](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#21-send-an-http-request-to-the-server-http16255220725005terminal-hw-request)
-+ [22. * Write a bash script which does the steps above (# 3-8, # 13)](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/README_HOMEWORK_1.md#22-write-a-bash-script-which-does-the-steps-above--3-8--13)
++ [17. Show some first lines of the file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#17-show-some-first--lines-of-the-file)
++ [18. Show some last lines of the file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#18-show-some-last-lines-of-the-file)
++ [19. Show content of long file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#19-show-content-of-long-file)
++ [20. Show current date&time](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#20-show-current-datetime)
++ [21. * Send an http request to the server](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#21-send-an-http-request-to-the-server-http16255220725005terminal-hw-request)
++ [22. * Write a bash script which does the steps above (# 3-8, # 13)](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#22-write-a-bash-script-which-does-the-steps-above--3-8--13)
          
           
 ## 1. Print where I am

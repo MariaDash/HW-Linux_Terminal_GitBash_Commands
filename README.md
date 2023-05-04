@@ -64,7 +64,7 @@
          
 + [16. List all file in the directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#16-list-all-file-in-the-directory)
 + [17. Change directory from current inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#17-change-directory-from-current-inner_dir_1)  
-+ [18. Show the contetns of tf_3.txt file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#18-show-the-contetns-of-tf_3txt-file) 
++ [18. Show the contents of tf_3.txt file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#18-show-the-contents-of-tf_3txt-file) 
 + [19. Find path to tf_4.txt](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#19-find-path-to-tf_4txt)  
 + [20. Clear the contents of the file tf_4.txt without deleting it](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#20-clear-the-contents-of-the-file-tf_4txt-without-deleting-it)
 + [21. Find path to files with 'tf' in the name. Case sensitive](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#21-find-path-to-files-with-tf-in-the-name-case-sensitive)  

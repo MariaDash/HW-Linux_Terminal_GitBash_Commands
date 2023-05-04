@@ -666,10 +666,10 @@ $
 ### 2) In inner_dir_1 while located in dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$ grep -r 'sec' ./*/
+$ grep -r 'second' ./*/
 ./inner_dir_1/inner_dir_1:the second 2
-./inner_dir_1/inner_dir_1:the sec 2
-./inner_dir_1/tf_3.txt:the sec 2
+./inner_dir_1/inner_dir_1:the second 2
+./inner_dir_1/tf_3.txt:the second 2
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $

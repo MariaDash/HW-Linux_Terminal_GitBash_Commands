@@ -482,7 +482,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1 (main)
 $
 ```
 ## 18. Show some last lines of the file
-`tail` command show 10 last lines by default, if you need more or less , you can define the number of lines by adding '-number':
+`tail` command show 10 last lines by default, if you need more or less , you can define the number of lines by adding `-number`:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/dir1 (main)
 $ tail -3 file5.json

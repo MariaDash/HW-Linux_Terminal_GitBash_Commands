@@ -704,7 +704,7 @@ $ grep -l second *.* | xargs realpath
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ 
 ```
-Note: `*.*` - in current directory
+
 
 ## 31. Find strings in files where  'second' is standalone pattern and is located in the current directory. Case sensitive.
 

@@ -36,7 +36,7 @@
 + [21. * Send an http request to the server](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#21-send-an-http-request-to-the-server-http16255220725005terminal-hw-request)
 + [22. * Write a bash script which does the steps above (# 3-8, # 13)](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#22-write-a-bash-script-which-does-the-steps-above--3-8--13)
          
-# Homework#2: Basic Linux commands created  with GitBash
+# [Homework#2: Basic Linux commands created  with GitBash](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#homework2-basic-linux-commands-created--with-gitbash)
 
 + [1. Create dir_1 directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-create-dir_1-directory)  
 + [2.Change directory to dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-change-directory-to-dir_1) 

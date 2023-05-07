@@ -527,7 +527,8 @@ tf_2.txt:the sec 3
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ```
-
+Note: `grep - s`. Parameter -s ignore output of error messages.
+(grep: inner_dir_1: Is a directory will not be printed)
 ## 24. Find strings in files where 'sec' is located in the current directory. Case insensitive.
 ### 1) Only in dir_1:
 ```
@@ -867,7 +868,15 @@ tf_2.txt:the sec 3
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ```
+Another way:
 
+```
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$grep -r 'sec' > created.txt
+
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$
+```
 ## 39. One string command: Delete all text file with strings containig word "sec"
 ### 1) If combination "sec'
 ```

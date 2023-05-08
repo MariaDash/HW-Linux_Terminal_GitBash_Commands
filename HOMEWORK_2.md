@@ -742,9 +742,11 @@ $
 ### 1) Relative path 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$ grep -rvL second .
-./inner_dir_1/tf_4.txt
-./tf_1.txt
+
+$ grep -Lrs 'second'
+inner_dir_1/tf_4.txt
+inner_dir_1/tF_5.txt
+tf_1.txt
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
@@ -752,8 +754,9 @@ $
 ### 2) Absolute path:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$ grep -rvL second . |xargs realpath
+$ grep -rLs second . |xargs realpath
 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1/tf_4.txt
+/d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1/tF_5.txt
 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/tf_1.txt
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)

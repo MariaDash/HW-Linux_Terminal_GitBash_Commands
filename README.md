@@ -110,7 +110,7 @@
      [— In dir_ and in inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-dir_-and-in-inner_dir_1-5)   
      [— Absolute path in dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#3-absolute-path-in-dir_1)  
         
-+ [31. Find all lines in all files where there is no "second" combination. Case sensitive](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#31-find-all-lines-in-all-files-where-there-is-no-second-combination-case-sensitive)  
++ [31. Find all lines in all files where there is no "second" combination. Case sensitive](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#31-find-all-lines-in-all-files-where-there-is-no-second-combination-case-sensitive)   
 + [32. Find files and the path to files not containing strings with 'second'. Case sensitive:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#32-find-files-and-the-path-to-files--not-containing-strings-with-second-case-sensitive)
 
      [— Relative path](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-relative-path)  

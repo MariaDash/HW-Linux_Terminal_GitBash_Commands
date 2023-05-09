@@ -707,7 +707,7 @@ $
 ```
 
 
-## 31. Find strings in files where  'second' is standalone pattern and is located in the current directory. Case sensitive.
+## 31. Find all lines in all files where there is no "second" combination. Case sensitive.
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)

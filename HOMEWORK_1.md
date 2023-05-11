@@ -426,6 +426,7 @@ And one more. I will delete it later.
 I will continue later.
 ```
 **Step 2**: open file manually via `GUI` or open second terminal window and do `vim file` command
+
 **Step 3**: add several lines containing a needed pattern:
 ```
 I will loose myself later

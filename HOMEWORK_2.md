@@ -297,7 +297,11 @@ the seConD 2
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
 $
 ```
-
+or
+```
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
+$ cat ../tf_2.txt
+```
 ## 14. Create text file tf_4.txt containing 15 strings
 ### 1. Creating numbers manually
 ```
@@ -388,8 +392,12 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner
 $ seq 13 | cat > tF_5.txt
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ 
-
+or
+Let's try with additional "string:" text and the numbers (need to create a similar for loop):
 ```
+$ for string_number in {1..13}; do echo "string: ${string_number}"; done > tF_5.txt
+```
+Note: a sequence starts with 1 by default, but in case of loop we need to specify the range, the last number of range is included to the range.```
 
 ## 16. List all file in the directory
 
@@ -474,7 +482,11 @@ $ cat ./inner_dir_1/tf_4.txt
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ```
-
+or
+Let's use the `>` operator and redirect the empty output to the file:
+```
+> inner_dir_1/tf_4.txt
+```
 ## 21. Find path to files with 'tf' in the name. Case sensitive.
 
 ```

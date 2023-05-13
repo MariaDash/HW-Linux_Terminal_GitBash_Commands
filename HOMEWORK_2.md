@@ -526,7 +526,7 @@ $
 ### 1) Only in dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$ grep 'sec' *
+$ grep 'sec' ./*
 grep: inner_dir_1: Is a directory
 tf_2.txt:the second 2
 tf_2.txt:the sec 3
@@ -534,7 +534,7 @@ tf_2.txt:the sec 3
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ```
-
+Note: an asterisk  means searching for strings in all the files
 ### 2) In dir_1 and in child directory inner_dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)

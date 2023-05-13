@@ -254,7 +254,11 @@ the sec 3
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
 $
 ```
-
+or
+```
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
+$ cat >> ../tf_2.txt
+```
 ## 12. Add the string "the SeCoNd 2" to the file tf_3.txt using "cat" command
 
 ```

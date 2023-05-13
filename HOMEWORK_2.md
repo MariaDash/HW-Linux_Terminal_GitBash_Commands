@@ -727,7 +727,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $ grep -ls "second" ./*      
 ./tf_2.txt
 ```
-### 2) In dir_ and in inner_dir_1:
+### 2) Absolute path in dir_ and in inner_dir_1:
 ```
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
@@ -738,7 +738,7 @@ $ grep  -rls 'second' ./*
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ```
-### 3) Absolute path in dir_1:
+### 3) Absolute path only  in dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ grep -l second *.* | xargs realpath
@@ -853,7 +853,7 @@ $
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$ mkdir newdir && cat >> newdir/newfile1.txt
+$ mkdir newdir && cat > newdir/newfile1.txt
 1 2 3 4 5
 2
 3

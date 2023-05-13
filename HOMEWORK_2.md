@@ -394,6 +394,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $ 
 ```
 or
+
 Let's try with additional "string:" text and the numbers (need to create a similar for loop):
 ```
 $ for string_number in {1..13}; do echo "string: ${string_number}"; done > tF_5.txt
@@ -452,7 +453,10 @@ $ find -name tf_4.txt
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ```
-
+or if we want to specify that we are searching only in current directory, we use `./` :
+```
+$ find ./ -name "tf_4.txt"
+```
 ## 20. Clear the contents of the file tf_4.txt without deleting it
 
 ```

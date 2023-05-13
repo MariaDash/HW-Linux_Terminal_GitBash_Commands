@@ -56,7 +56,7 @@
      [— Only in dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-only-in-dir_1-4)  
      [— In dir_1 and in inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-dir_-and-in-inner_dir_1-3)   
        
-+ [28. Find strings in files that contain  'second' letter combination and is located in the current directory.  Case insensitive](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#28-find-strings-in-files-where--second-is-standalone-pattern-and-is-located-in-the-current-directory-case-insensitive)
++ [28. Find strings in files that contain  'second' letter combination and is located in the current directory.  Case insensitive](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#28-find-strings-in-files-that-contain--second-letter-combination-and-is-located-in-the-current-directory-case-insensitive)
    
      [— Only in dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-only-in-dir_1-5)  
      [— In dir_1 and in inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-dir_-and-in-inner_dir_1-4)   

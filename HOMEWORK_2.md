@@ -46,27 +46,27 @@
      [— Only in dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-only-in-dir_1-2)  
      [— In dir_1 and in inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-dir_-and-in-inner_dir_1-1)   
      
-+ [26. Find strings in files where 'sec' is standalone pattern and is located in the current directory. Case insensitive](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#26-find-strings-in-files-where--sec-is-standalone-pattern-and-is-located-in-the-current-directory-case-insensitive) 
++ [26. Find strings in files where  'sec' is standalone pattern and is located in the current directory. Case insensitive.](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#26-find-strings-in-files-where--sec-is-standalone-pattern-and-is-located-in-the-current-directory-case-insensitive) 
      
      [— Only in dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-only-in-dir_1-3)  
      [— In dir_1 and in inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-dir_-and-in-inner_dir_1-2)   
    
-+ [27. Find strings in files where 'second' is standalone pattern and is located in the current directory. Case sensitive:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#27-find-strings-in-files-where--second-is-standalone-pattern-and-is-located-in-the-current-directory-case-sensitive)  
++ [27. Find strings in files that contain  'second' letter combination and is located in the current directory. Case sensitive:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#27-find-strings-in-files-where--second-is-standalone-pattern-and-is-located-in-the-current-directory-case-sensitive)  
 
      [— Only in dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-only-in-dir_1-4)  
      [— In dir_1 and in inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-dir_-and-in-inner_dir_1-3)   
        
-+ [28. Find strings in files where 'second' is standalone pattern and is located in the current directory. Case insensitive](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#28-find-strings-in-files-where--second-is-standalone-pattern-and-is-located-in-the-current-directory-case-insensitive)
++ [28. Find strings in files that contain  'second' letter combination and is located in the current directory.  Case insensitive](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#28-find-strings-in-files-where--second-is-standalone-pattern-and-is-located-in-the-current-directory-case-insensitive)
    
      [— Only in dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-only-in-dir_1-5)  
      [— In dir_1 and in inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-dir_-and-in-inner_dir_1-4)   
 
-+ [29. Find strings in files where 'second' is standalone pattern and is located in all directories level below . Case sensitive:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#29-find-strings-in-files-where--second-is-standalone-pattern-and-is-located-in-all---directories-level-below--case-sensitive)  
++ [29. Find strings in files that contain  'second' letter combination and is located in all directories level below . Case sensitive.:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#29-find-strings-in-files-where--second-is-standalone-pattern-and-is-located-in-all---directories-level-below--case-sensitive)  
 
      [— In dir_1 and in inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-in-dir_1-and-in-inner_dir_1)  
      [— In inner_dir_1 while located in dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-inner_dir_1-while-located-in-dir_1)   
      
-+ [30. Find files and the path to files containing strings with 'second' in the current directory. Case sensitive:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#30-find-files-and-the-path-to-files--containing-strings-with-second-in-the-current-directory-case-sensitive)
++ [30. Find files and the path to files containing strings with 'second' letter combination in the current directory. Case sensitive:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#30-find-files-and-the-path-to-files--containing-strings-with-second-in-the-current-directory-case-sensitive)
 
      [— Relative path in dir dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-relative-path-in-dir-dir_1)  
      [— In dir_ and in inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-dir_-and-in-inner_dir_1-5)   
@@ -644,7 +644,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 27. Find strings in files where  'second' is standalone pattern and is located in the current directory. Case sensitive.
+## 27. Find strings in files that contain  'second' letter combination and is located in the current directory. Case sensitive.
 ### 1) Only in dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
@@ -666,7 +666,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 28. Find strings in files where  'second' is standalone pattern and is located in the current directory. Case insensitive.
+## 28. Find strings in files that contain  'second' letter combination and is located in the current directory. Case insensitive.
 ### 1) Only in dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
@@ -691,7 +691,7 @@ tf_2.txt:the seConD 2
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ```
-## 29. Find strings in files where  'second' is standalone pattern and is located in all   directories level below . Case sensitive.
+## 29. Find strings in files that contain  'second' letter combination and is located in all directories level below . Case sensitive.
 ### 1) In dir_1 and in inner_dir_1
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
@@ -720,7 +720,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main
 $
 ```
 
-## 30. Find files and the path to files  containing strings with 'second' in the current directory. Case sensitive.
+## 30. Find only files and the path to files  containing strings with 'second' letter combination in the current directory. Case sensitive.
 ### 1) Relative path in dir dir_1
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)

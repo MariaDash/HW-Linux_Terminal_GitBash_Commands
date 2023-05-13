@@ -392,6 +392,7 @@ Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner
 $ seq 13 | cat > tF_5.txt
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $ 
+```
 or
 Let's try with additional "string:" text and the numbers (need to create a similar for loop):
 ```

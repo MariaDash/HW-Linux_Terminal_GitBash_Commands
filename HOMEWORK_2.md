@@ -548,13 +548,30 @@ tf_2.txt:the sec 3
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ```
-Note: `grep - s`. Parameter -s ignore output of error messages.
-(grep: inner_dir_1: Is a directory will not be printed)
+
+Option 2: if we can filter the files by formats, we can also skip the inner directory, so let's do this:
+```
+$ grep "sec" ./*.txt
+```
+As a result, we see no message:
+```
+./tf_2.txt:the second 2
+./tf_2.txt:the sec 3
+```
+Option 3: if we don't know the files formats, we can just use -s parameter as a silent option for not displaying the message:
+```
+$ grep -s "sec" ./*.txt
+```
+As a result, we also see no message:
+```
+./tf_2.txt:the second 2
+./tf_2.txt:the sec 3
+```
 ## 24. Find strings in files where 'sec' is located in the current directory. Case insensitive.
 ### 1) Only in dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$ grep -i 'sec' *
+$ grep -i 'sec' ./*
 grep: inner_dir_1: Is a directory
 tf_2.txt:the second 2
 tf_2.txt:the sec 3
@@ -567,7 +584,7 @@ $
 
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$ grep -ir 'sec' *
+$ grep -ir 'sec' ./*
 inner_dir_1/inner_dir_1:the second 2
 inner_dir_1/inner_dir_1:the sec 2
 inner_dir_1/inner_dir_1:the SeCoNd 2
@@ -585,7 +602,7 @@ $
 ### 1) Only in dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$ grep -w 'sec' *
+$ grep -w 'sec' ./*
 grep: inner_dir_1: Is a directory
 tf_2.txt:the sec 3
 
@@ -595,7 +612,7 @@ $
 ### 2) In dir_ and in inner_dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$ grep -rw 'sec' *
+$ grep -rw 'sec' ./*
 inner_dir_1/inner_dir_1:the sec 2
 inner_dir_1/tf_3.txt:the sec 2
 tf_2.txt:the sec 3
@@ -608,7 +625,7 @@ $
 ### 1) Only in dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$ grep -iw 'sec' *
+$ grep -iw 'sec' ./*
 grep: inner_dir_1: Is a directory
 tf_2.txt:the sec 3
 
@@ -618,7 +635,7 @@ $
 ### 2) In dir_ and in inner_dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$ grep -iwr 'sec' *
+$ grep -iwr 'sec' ./*
 inner_dir_1/inner_dir_1:the sec 2
 inner_dir_1/tf_3.txt:the sec 2
 tf_2.txt:the sec 3
@@ -631,7 +648,7 @@ $
 ### 1) Only in dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$ grep 'second' *
+$ grep 'second' ./*
 grep: inner_dir_1: Is a directory
 tf_2.txt:the second 2
 
@@ -641,7 +658,7 @@ $
 ### 2) In dir_ and in inner_dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$ grep -r 'second' *
+$ grep -r 'second' ./*
 inner_dir_1/inner_dir_1:the second 2
 tf_2.txt:the second 2
 
@@ -653,7 +670,7 @@ $
 ### 1) Only in dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$ grep -i 'second' *
+$ grep -i 'second' ./*
 grep: inner_dir_1: Is a directory
 tf_2.txt:the second 2
 tf_2.txt:the seConD 2
@@ -664,7 +681,7 @@ $
 ### 2) In dir_ and in inner_dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$ grep -ir 'second' *
+$ grep -ir 'second' ./*
 inner_dir_1/inner_dir_1:the second 2
 inner_dir_1/inner_dir_1:the SeCoNd 2
 inner_dir_1/tf_3.txt:the SeCoNd 2
@@ -685,6 +702,12 @@ tf_2.txt:the second 2
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ```
+or
+```
+$ grep -r 'second' ./*/* 
+```
+The 1st * means all the subdirectories, the 2nd * means all the files in subdirectories
+
 ### 2) In inner_dir_1 while located in dir_1:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
@@ -701,18 +724,16 @@ $
 ### 1) Relative path in dir dir_1
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$ grep  'second' ./*
-grep: ./inner_dir_1: Is a directory
-./tf_2.txt:the second 2
+$ grep -ls "second" ./*      
+./tf_2.txt
 ```
 ### 2) In dir_ and in inner_dir_1:
 ```
+
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$
-Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
-$ grep  -r 'second' ./*
-./inner_dir_1/inner_dir_1:the second 2
-./tf_2.txt:the second 2
+$ grep  -rls 'second' ./*
+/d/Testing_Course/Git/main_dir/sub_dir/dir_1/tf_2.txt
+/d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1/tf_3.txt
 
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $

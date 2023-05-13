@@ -66,7 +66,7 @@
      [— In dir_1 and in inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-in-dir_1-and-in-inner_dir_1)  
      [— In inner_dir_1 while located in dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-inner_dir_1-while-located-in-dir_1)   
      
-+ [30. Find files and the path to files containing strings with 'second' letter combination in the current directory. Case sensitive:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#30-find-files-and-the-path-to-files--containing-strings-with-second-in-the-current-directory-case-sensitive)
++ [30. Find files and the path to files containing strings with 'second' letter combination in the current directory. Case sensitive:](https://github.com/MariaDash/Linux_Terminal_GitBash/edit/main/HOMEWORK_2.md#30-find-only-files-and-the-path-to-files--containing-strings-with-second-letter-combination-in-the-current-directory-case-sensitive)
 
      [— Relative path in dir dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#1-relative-path-in-dir-dir_1)  
      [— In dir_ and in inner_dir_1](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_2.md#2-in-dir_-and-in-inner_dir_1-5)   

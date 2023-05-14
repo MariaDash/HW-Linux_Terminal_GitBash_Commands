@@ -399,7 +399,24 @@ Let's try with additional "string:" text and the numbers (need to create a simil
 ```
 $ for string_number in {1..13}; do echo "string: ${string_number}"; done > tF_5.txt
 ```
-Note: a sequence starts with 1 by default, but in case of loop we need to specify the range, the last number of range is included to the range.```
+Note: a sequence starts with `1` by default, but in case of loop we need to specify the range, the last number of range is included to the range.
+Result:
+
+```
+string: 1
+string: 2
+string: 3
+string: 4
+string: 5
+string: 6
+string: 7
+string: 8
+string: 9
+string: 10
+string: 11
+string: 12
+string: 13
+```
 
 ## 16. List all file in the directory
 

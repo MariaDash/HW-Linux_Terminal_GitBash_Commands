@@ -110,7 +110,10 @@ dir_1/
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir (main)
 $
 ```
-
+or if we want to make a tree:
+```
+mkdir -p  /name_dir1_1/name_dir_2
+```
 ## 2. Change directory to dir_1
 
 ```
@@ -588,6 +591,13 @@ As a result, we also see no message:
 ./tf_2.txt:the sec 3
 ```
 Note: you can use `grep -n sec ./` to specify number of string where letter combination `sec` is located.
+
+### 3 If we want to search strings in a folder 1 level up:
+We are located in `dir1`, we need to go two level up to `main_dir` and go level down to `sub_dir` and search all files there:
+```
+Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
+$ grep 'sec' ../../sub_dir/*
+```
 
 ## 24. Find strings in files where 'sec' is located in the current directory. Case insensitive.
 ### 1) Only in dir_1:

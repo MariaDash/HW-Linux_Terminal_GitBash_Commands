@@ -931,7 +931,7 @@ Here, with `grep -rh` (where `-h` "cuts" the file name , as we need only lines f
 $ grep -rh "sec" ./ | xargs -I{} echo {} > tf_38.txt
 ```
 
-## 39. One string command: Delete all text file with strings containig word "sec"
+## 39. One string command: Delete all text file with strings containig letter combination "sec"
 ### 1) If combination "sec'
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)

@@ -469,6 +469,13 @@ and options
 + `-w` - print strings with a standalone pattern
 + `-n` — print string numbers
 
+Also we have command `wc` to show information about a file:
+`wc -l`  - print number of strings
+`wc -w` - print number of words
+`wc -c` - print number of cherecters
+For example:
+`cat catalina.out.txt | wc -l`  - print  number of strings
+
 ## 17. Show some first  lines of the file
 Note: `head` command show 10 first lines by default, if you need more or less , you can define the number of lines by adding `-number`:
 ```

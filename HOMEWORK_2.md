@@ -940,6 +940,10 @@ $ grep -rl sec | xargs rm
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ```
+or
+```
+grep -rl "sec" ./ | xargs -I{} rm -f {}
+```
 ### 2) If standalone word "sec"
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)

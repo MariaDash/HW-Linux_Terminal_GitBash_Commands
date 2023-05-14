@@ -225,6 +225,7 @@ $
 + `ls -a` command show all files including hidden files
 + `ls -l` - command from the list which allowed us to see the content of the current directory in a long format
 Note: `.bash_history` - example of a hidden file  - there all files started name with a dot.
++ `ls -lh`  - long format, human readable size
 + `ls -a -l`  or `ls -al` or `ls -la`  - all files with parameters
 + `ls -t` - sort by modification time (date)
 + `ls -tr` - sort by modification time (date) reverse order

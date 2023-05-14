@@ -246,6 +246,11 @@ drwxr-xr-x 1 Admin 197121  0 Apr 19 17:46 dir2/
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing Course/Git/dir1 (main)
 $
 ```
+If we want to list the content of inner directory:
+```
+$ ls ./dir1/folder1
+
+```
 ## 9. Open any .txt file
 Here we have two options:
 ### 1. using `cat` command

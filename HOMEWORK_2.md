@@ -584,6 +584,8 @@ As a result, we also see no message:
 ./tf_2.txt:the second 2
 ./tf_2.txt:the sec 3
 ```
+Note: you can use `grep -n sec ./` to specify number of string where letter combination `sec` is located.
+
 ## 24. Find strings in files where 'sec' is located in the current directory. Case insensitive.
 ### 1) Only in dir_1:
 ```

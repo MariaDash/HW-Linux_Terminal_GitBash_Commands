@@ -254,7 +254,7 @@ the sec 3
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
 $
 ```
-or
+or another way to write path -  relative path. you can go level up and choose directory from that level for saving file:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
 $ cat >> ../tf_2.txt

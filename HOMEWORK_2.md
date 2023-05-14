@@ -629,7 +629,14 @@ tf_2.txt:the seConD 2
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ```
-
+Advanced: you can color the pattern:
+```
+grep --color=always sec *
+```
+or not color at all:
+```
+grep --color=never sec *
+```
 ## 25.  Find strings in files where  'sec' is standalone pattern and is located in the current directory. Case sensitive.
 ### 1) Only in dir_1:
 ```

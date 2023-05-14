@@ -435,7 +435,7 @@ $
 ```
 
 ## 17. Change directory from current inner_dir_1
-
+go 1 level up:
 ```
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1/inner_dir_1 (main)
 $ cd ..
@@ -443,7 +443,10 @@ $ cd ..
 Admin@DESKTOP-V6V9F0T MINGW64 /d/Testing_Course/Git/main_dir/sub_dir/dir_1 (main)
 $
 ```
-
+or if we want to go 2 level up:
+```
+$ cd ../..
+```
 ## 18. Show the contents of tf_3.txt file
 
 ```

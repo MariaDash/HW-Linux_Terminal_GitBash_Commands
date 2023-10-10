@@ -1,41 +1,4 @@
-# Homework#1: Basic Linux commands created  with GitBash
-+ [1. Print where I am](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#1-print-where-i-am)  
-+ [2. Create New Directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#2-create-new-directory)   
-+ [3. Change directory  on current level/ go to created directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#3-change-directory--on-current-level-go-to-created-directory)  
-+ [4. Create 3 directories at a time](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#4-create-3-directories-at-a-time)  
-+ [5. Change directory to any other](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#5-change-directory-to-any-other)  
-+ [6. Create files: 3 .txt and 2 .json files:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#6-create-files-3-txt-and-2-json-files)
-   
-     [— `cat` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#1-cat-command)  
-     [— `echo` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#2-echo-command)   
-     [— `touch` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#3-touch-command)   
-     [— `vi` command ](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#4-vi-command) 
-     
-+ [7. Again creating 3 directories](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#7-again-creating-3-directories)  
-+ [8. Print the contents of directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#8-print-the-contents-of-directory)  
-+ [9. Open any .txt file:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#9-open-any-txt-file) 
- 
-     [— using `cat` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#1-using-cat-command)           
-     [— using `vim` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#2-using-vim-command)
-     
-+ [10. Adding smth in the existing file:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#10-adding-smth-in-the-existing-file)  
-+ [11. Save changes in this file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#11-save-changes-in-this-file)  
-+ [12. Go to parent directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#12-go-to-parent-directory)
-+ [13. Move any two files to any other directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#13-move-any-two-files-to-any-other-directory)
-+ [14. Copy any two files to any other directory](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#14-copy-any-two-files-to-any-other-directory)
-+ [15. Find a file by name](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#15-find-a-file-by-name)
-+ [16. Show file contents in real time and filter by pattern:](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#16-show-file-contents-in-real-time-and-filter-by-pattern) 
-
-  [— `tail` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#tail-command)  
-  [— `grep` command](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#grep-command) 
-  
-+ [17. Show some first lines of the file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#17-show-some-first--lines-of-the-file)
-+ [18. Show some last lines of the file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#18-show-some-last-lines-of-the-file)
-+ [19. Show content of long file](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#19-show-content-of-long-file)
-+ [20. Show current date&time](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#20-show-current-datetime)
-+ [21. * Send an http request to the server](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#21-send-an-http-request-to-the-server-http16255220725005terminal-hw-request)
-+ [22. * Write a bash script which does the steps above (# 3-8, # 13)](https://github.com/MariaDash/Linux_Terminal_GitBash/blob/main/HOMEWORK_1.md#22-write-a-bash-script-which-does-the-steps-above--3-8--13)
-         
+# Part#1: Basic Linux commands created  with GitBash
           
 ## 1. Print where I am
 `pwd` - print working directory
